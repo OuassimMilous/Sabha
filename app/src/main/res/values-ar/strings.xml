@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_tasbih">التسبيح</string>
+    <string name="title_dua">أدعية</string>
+    <string name="title_about_app">عن التطبيق</string>
+
+    <string name="about_app_text">تمت برمجة وتطوير هذا التطبيق من قبل wassim tech apps </string>
+    <string name="raslouna">لأستفساراتكم أو إقتراحاتكم راسلونا على : </string>
+
+    <string name="PPCT">بإستعمالك للتطبيق فأنت توافق على
+       <a href="https://wassimtechapps.blogspot.com/p/privacy-policy-wassim-tech-apps-built_20.html"> PRIVACY POLICY</a>
+        و
+        <a href="https://wassimtechapps.blogspot.com/p/terms-conditions-by-downloading-or_20.htmlhttps://wassimtechapps.blogspot.com/p/privacy-policy-wassim-tech-apps-built_20.html">TERMS &amp; CONDITIONS </a>
+    </string>
+    <string name="follow_us">تابعونا</string>
+    <string name="more_apps">المزيد من التطبيقات</string>
+    <string name="follow_us_on_facebook">تابعونا على الفايسبوك</string>
+    <string name="title_Sadaqah_Jarya">صدقة جارية</string>
+
+    <string name="share_sadaqah_text">قم بمشاركة هذا التطبيق مع أصدقائك وأجعله صدقة جارية لك من الألاف الذين سيستعملونه بعدك</string>
+    <string name="share_on_facebook">أنشرها على الفايسبوك</string>
+    <string name="share_on_whatsapp">أنشرها على الواتس أب</string>
+    <string name="share_on_twitter">أنشرها على التويتر</string>
+    <string name="share_on_messenger">أنشرها على المسنجر</string>
+    <string name="copy_link">إنسخ رابط التطبيق</string>
+    <string name="share_on_another_way">أنشر بطريقة أخرى</string>
+    <string name="our_website">موقعنا الإلكتروني</string>
+    <string name="morning_dua">أدعية الصباح</string>
+    <string name="evening_dua">أدعية المساء</string>
+    <string name="before_sleeping_dua">أدعية قبل النوم</string>
+    <string name="dua_before_and_after_eating">أدعية الأكل</string>
+    <string name="aftar_the_prayer_dua">أدعية بعد الصلاة المفروضة</string>
+    <string name="share_other_text">أهلا ! حمل تطبيق Sabha - سبحة ولا تنسى العمل لأخرتك مرة أخرى ! رابط التطبيق : https://play.google.com/store/apps/details?id=wassimtech.sabha</string>
+    <string name="app_link">https://play.google.com/store/apps/details?id=wassimtech.sabha</string>
+
+
+
+
+    <string name="source_morning_dua1">مصدر الأدعية : <a href="https://www.searchtruth.com/dua/1/">searchtruth</a></string>
+    <string name="source_evening_dua1">مصدر الأدعية  : <a href="https://www.searchtruth.com/dua/1/">searchtruth</a></string>
+    <string name="source_before_sleeping_dua1">مصدر الأدعية  : <a href="https://www.islamicfinder.org/duas/masnoon/before-sleeping/">islamicfinder</a></string>
+    <string name="source_eating_dua1">مصدر الأدعية  :  <a href="http://www.rahmahmuslimhomeschool.co.uk/index/islamic-study-dua-before-and-after-eating-etiquettes-flashcard/">rahmahmuslimhomeschool</a></string>
+    <string name="source_after_the_prayer">مصدر الأدعية  :  <a href="https://www.islamawareness.net/Dua/Fortress/025.html/">islamawareness</a></string>
+
+    <string name="okay">حسنا</string>
+
+
+    <string name="the_thikr">الذكر</string>
+    <string name="how_many_times_do_you_want_to_repeat_it">كم مرة تريد إعادته</string>
+    <string name="you_have_completed">لقد أكملت</string>
+    <string name="repeat_again">أعد مرة أخرى</string>
+    <string name="cancel">إلغي</string>
+    <string name="you_cannot_leave_anything_empty">لا يمكنك ترك أي خانة فارغة</string>
+    <string name="start">إبدأ</string>
+    <string name="stop">توقف</string>
+    <string name="repeat_with_other_settings">أعد لكن بإعدادات أخرى</string>
+    <string name="settings">إعدادات</string>
+    <string name="vibration_on_every_tasbiha">إهتزاز الجهاز بكل تسبيحة</string>
+    <string name="language">اللغة</string>
+    <string name="vibration_when_the_thikr_changes">إهتزاز الجهاز عند تغيير الذكر</string>
+    <string name="save">أحفظ</string>
+
+    <string name="link_copied_to_clipboard">تم نسخ الرابط</string>
+    <string name="udnthvfb">هاذا الجهاز لا يحتوي على تطبيق فايسبوك يرجى إختيار طريقة أخرى للنشر</string>
+    <string name="udnthvmessanger">هاذا الجهاز لا يحتوي على تطبيق المسنجر يرجى إختيار طريقة أخرى للنشر</string>
+    <string name="udnthvwhatsapp">هاذا الجهاز لا يحتوي على تطبيق الواتس أب يرجى إختيار طريقة أخرى للنشر</string>
+    <string name="udnthvtwitter">هاذا الجهاز لا يحتوي على تطبيق التويتر يرجى إختيار طريقة أخرى للنشر</string>
+    <string name="choose_language">إختر لغة</string>
+
+    <string name="reset_this_thikr_only">أعد هذا الذكر فقط</string>
+    <string name="reset_every_thing">أعد كل شيء</string>
+    <string name="add_another_thikr">أضف ذكرا أخر</string>
+
+    <string name="surat_al_mulk">سورة الملك ... لتتم قرائتها كل ليلة</string>
+    <string name="surat_al_mulk_title">سورة الملك</string>
+
+
+    <string name="source_surat_al_mulk1">المصدر : <a href="https://www.quran411.com/surah-mulk.asp">quran411</a></string>
+
+    <string name="surat_al_kahf">سورة الكهف ... لتتم قرائتها كل جمعة</string>
+    <string name="surat_al_kahf_title">سورة الكهف</string>
+
+
+    <string name="source_surat_al_kahf1">المصدر السورة والكتابة بالحروف اللاتينية :  <a href="https://www.quran411.com/surah-kahf.asp">quran411</a></string>
+    <string name="source_surat_al_kahf2">مصدر الترجمة :  <a href="https://quran.com/18">quran</a></string>
+
+    <string name="notifsabahtitle">ما رأيك ببعض التسبيح اليوم ؟ </string>
+    <string name="notifalkahfitle">اليوم الجمعة !ستقرأ سورة الكهف اليوم, صحيح ؟</string>
+    <string name="eating_dua3_title">دعاء بعد الأكل</string>
+    <string name="eating_dua1_title">دعاء قبل الأكل</string>
+    <string name="eating_dua2_title">"إذا نسيت قول بإسم الله قل: "</string>
+    <string name="evening_dua1_title">في المساء قل</string>
+    <string name="evening_dua2_title">أو قل</string>
+    <string name="evening_dua3_title">بعد إنتهاء وقت المغرب قل</string>
+    <string name="morning_and_evening_dua1_title">أدعية أخرى للصباح والمساء</string>
+    <string name="morning_dua1_title">دعاء للصباح</string>
+    <string name="morning_dua2_title">أو إقرأ هذا الدعاء</string>
+    <string name="morning_dua3_title">عند شروق الشمس :</string>
+
+</resources>

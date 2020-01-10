@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/green_50"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TasbihFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/title_tasbih"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/allerta_stencil" />
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="12dp"
+                app:srcCompat="@drawable/settings" />
+        </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_black_border">
+
+                <ImageView
+                    android:id="@+id/IVedit"
+                    android:layout_width="70dp"
+                    android:padding="8dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_black_border3"
+                    app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+                <TextView
+                    android:id="@+id/thikrAR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:padding="16dp"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:gravity="center"
+                    android:text="@string/tasbih_subhan_allah_arabic"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_black_border2"
+                android:id="@+id/nonAR"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/thikrAREn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/tasbih_subhan_allah_ar_en"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/allerta_stencil" />
+                <TextView
+                    android:id="@+id/thikrEn"
+                    android:padding="8dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:gravity="center"
+                    android:text="@string/tasbih_subhan_allah"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:paddingBottom="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/counterTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="16dp"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="25"
+                    android:textColor="@color/white"
+                    android:textSize="70sp"
+                    app:fontFamily="@font/allerta_stencil" />
+            </RelativeLayout>
+
+                <ImageButton
+                    android:id="@+id/reset"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:backgroundTint="@color/red_900"
+                    android:foregroundGravity="left|bottom"
+                    android:src="@android:drawable/ic_popup_sync" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

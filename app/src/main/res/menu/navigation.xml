@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tasbih"
+        android:icon="@drawable/sabha_icon"
+        android:title="@string/title_tasbih" />
+
+    <item
+        android:id="@+id/navigation_dua"
+        android:icon="@drawable/pray_icon"
+        android:title="@string/title_dua" />
+
+    <item
+        android:id="@+id/navigation_about_app"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/title_about_app" />
+
+    <item
+        android:id="@+id/navigation_Sadaka_jariya"
+        android:icon="@drawable/sadaqah_icon"
+        android:title="@string/title_Sadaqah_Jarya" />
+
+</menu>

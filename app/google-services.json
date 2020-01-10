@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "981616974601",
+    "firebase_url": "https://apps-b826b.firebaseio.com",
+    "project_id": "apps-b826b",
+    "storage_bucket": "apps-b826b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981616974601:android:4020272b6666b0ae",
+        "android_client_info": {
+          "package_name": "wassimtech.sabha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981616974601-a2i5ekdnnlulc3l4nvrq818jrh4eu3m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wassimtech.sabha",
+            "certificate_hash": "1755261f397dcae19838321a3cc88de747c97ea7"
+          }
+        },
+        {
+          "client_id": "981616974601-u6k5370vsr3tiie8t71bt1e14vvt83r5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wassimtech.sabha",
+            "certificate_hash": "1d3da7b099d400424705a19f4fa67ad876dbb08c"
+          }
+        },
+        {
+          "client_id": "981616974601-4kr9nub2ote8j98mavl97256db4hp7a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGJuGqEpszYQ-TNFKuHaHGlM9AHyBM1g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981616974601-4kr9nub2ote8j98mavl97256db4hp7a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981616974601:android:00cfa7615b19d63c",
+        "android_client_info": {
+          "package_name": "wassimtech.speakalgerian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981616974601-akcdh774mopf3k5eoqi7sso1h4vmhu78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wassimtech.speakalgerian",
+            "certificate_hash": "1d3da7b099d400424705a19f4fa67ad876dbb08c"
+          }
+        },
+        {
+          "client_id": "981616974601-4kr9nub2ote8j98mavl97256db4hp7a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGJuGqEpszYQ-TNFKuHaHGlM9AHyBM1g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981616974601-4kr9nub2ote8j98mavl97256db4hp7a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

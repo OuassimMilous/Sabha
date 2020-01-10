@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_50"
+    tools:context=".MorningDuaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/goback_morning"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="0dp"
+                android:backgroundTint="@color/red_900"
+                android:foregroundGravity="left"
+                android:src="?attr/homeAsUpIndicator"
+                android:tint="@color/white" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/morning_dua"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/allerta_stencil" />
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/morning_dua1_title"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua1_arabic"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua1_ar_en"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@font/allerta_stencil" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_weight="1"
+                    android:background="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/morning_dua2_title"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua2_arabic"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua2_ar_en"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua2"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@font/allerta_stencil" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_weight="1"
+                    android:background="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/morning_dua3_title"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua3_arabic"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua3_ar_en"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_dua3"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@font/allerta_stencil" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_weight="1"
+                    android:background="@color/black" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:paddingLeft="8dp"
+                        android:text="@string/morning_and_evening_dua1_title"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_and_evening_dua1_arabic"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_and_evening_dua1_ar_en"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/allerta_stencil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:background="@layout/rounded_border_textview2"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/morning_and_evening_dua1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:fontFamily="@font/allerta_stencil" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_weight="1"
+                    android:background="@color/black" />
+
+                <TextView
+
+                    android:id="@+id/source_morning_dua1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/source_morning_dua1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

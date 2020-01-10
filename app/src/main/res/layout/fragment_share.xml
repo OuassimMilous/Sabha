@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@color/green_50"
+    tools:context=".ShareFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                app:fontFamily="@font/allerta_stencil"
+                android:padding="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/title_Sadaqah_Jarya" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:fontFamily="@font/allerta_stencil"
+                android:padding="16dp"
+                android:text="@string/share_sadaqah_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/facebook_logo" />
+                <Button
+                    android:id="@+id/shareonFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:text="@string/share_on_facebook"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/msngr_logo" />
+                <Button
+                    android:id="@+id/shareonMessenger"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:text="@string/share_on_messenger"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/lwasts" />
+                <Button
+                    android:id="@+id/shareonWhatsApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:text="@string/share_on_whatsapp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="16dp"
+
+                    android:src="@drawable/twtr" />
+                <Button
+                    android:id="@+id/shareonTwitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:text="@string/share_on_twitter"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:tint="@color/white"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_marginRight="16dp"
+                    app:srcCompat="?attr/actionModeCopyDrawable" />
+                <Button
+                    android:id="@+id/shareonCopyLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:text="@string/copy_link"/>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="16dp"
+                    android:tint="@color/white"
+                    app:srcCompat="?attr/actionModeShareDrawable" />
+                <Button
+                    android:id="@+id/shareonOther"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:text="@string/share_on_another_way"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_50"
+    android:orientation="vertical"
+    tools:context=".DuaFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/title_dua"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/allerta_stencil" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+
+            <Button
+                android:id="@+id/morning_dua"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/morning_dua"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/allerta_stencil" />
+
+            <Button
+                android:id="@+id/evening_dua"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/evening_dua"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/allerta_stencil" />
+
+            <Button
+                android:id="@+id/before_sleeping_dua"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/before_sleeping_dua"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/allerta_stencil" />
+
+
+            <Button
+                android:id="@+id/after_the_prayer_dua"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/aftar_the_prayer_dua"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/allerta_stencil" />
+
+            <Button
+                android:id="@+id/eating_dua"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:padding="12dp"
+                android:gravity="center"
+                android:text="@string/dua_before_and_after_eating"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/allerta_stencil" />
+
+            <Button
+                android:id="@+id/surat_al_kahf"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/surat_al_kahf"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/allerta_stencil" />
+
+            <Button
+                android:id="@+id/surat_al_mulk"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/surat_al_mulk"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/allerta_stencil" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

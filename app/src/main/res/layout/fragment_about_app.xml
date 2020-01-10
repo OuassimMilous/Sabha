@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@color/green_50"
+    tools:context=".AboutAppFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:fontFamily="@font/allerta_stencil"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/title_about_app" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:fontFamily="@font/allerta_stencil"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/about_app_text" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:fontFamily="@font/allerta_stencil"
+                android:paddingTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/raslouna" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:fontFamily="@font/allerta_stencil"
+                android:paddingTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="wassim.the.dev@gmail.com"/>
+
+            <TextView
+                android:id="@+id/PPCT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/PPCT"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:fontFamily="@font/allerta_stencil"
+                android:paddingTop="8dp"
+                android:fontFamily="sans-serif"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:fontFamily="@font/allerta_stencil"
+                android:padding="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/follow_us" />
+
+
+
+                <Button
+                    android:id="@+id/facebook"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:text="@string/follow_us_on_facebook"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/MoreApps"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:text="@string/more_apps"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:fontFamily="@font/allerta_stencil"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/OurWebsite"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="@string/our_website"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:fontFamily="@font/allerta_stencil"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</FrameLayout>

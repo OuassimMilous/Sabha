@@ -1,0 +1,503 @@
+<resources>
+    <string name="app_name" translatable="false">Sabha - سبحة</string>
+    <string name="title_tasbih">Tasbih</string>
+    <string name="title_dua">Dua</string>
+    <string name="title_about_app">About App</string>
+
+    <string name="about_app_text"> this app was made by wassim tech apps </string>
+    <string name="raslouna">for your questions or suggestions please email us on : </string>
+
+    <string name="PPCT">By using this you have accepted our
+       <a href="https://wassimtechapps.blogspot.com/p/privacy-policy-wassim-tech-apps-built_20.html"> PRIVACY POLICY</a>
+        And
+        <a href="https://wassimtechapps.blogspot.com/p/terms-conditions-by-downloading-or_20.htmlhttps://wassimtechapps.blogspot.com/p/privacy-policy-wassim-tech-apps-built_20.html">TERMS &amp; CONDITIONS </a>
+    </string>
+    <string name="follow_us">follow us</string>
+    <string name="more_apps">More Apps</string>
+    <string name="follow_us_on_facebook">Follow us on Facebook</string>
+    <string name="title_Sadaqah_Jarya">Ongoing Sadaqah</string>
+
+    <string name="share_sadaqah_text">share this app and make it an ongoing sadaqah for the thousands of people  that\'s going to use it after you… share it with your friends</string>
+    <string name="share_on_facebook">Share On Facebook</string>
+    <string name="share_on_whatsapp">Share On What\'s app</string>
+    <string name="share_on_twitter">Share On Twitter</string>
+    <string name="share_on_messenger">Share On Messenger</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="share_on_another_way">Share On Another Way</string>
+    <string name="our_website">Our Website</string>
+    <string name="morning_dua">Morning Dua</string>
+    <string name="evening_dua">Evening Dua</string>
+    <string name="before_sleeping_dua">Before Sleeping Dua</string>
+    <string name="dua_before_and_after_eating">Eating Dua</string>
+    <string name="aftar_the_prayer_dua">Aftar The Prayer Dua</string>
+    <string name="share_other_text">hey ! download the Sabha - سبحة app and never forget to work for your Akhira again ! link : https://play.google.com/store/apps/details?id=wassimtech.sabha</string>
+    <string name="app_link">https://play.google.com/store/apps/details?id=wassimtech.sabha</string>
+
+
+    <string name="morning_dua1_title" >Dua to be recited in the morning :</string>
+    <string name="morning_dua1_arabic" translatable="false">أَصْبَـحْـنا وَأَصْبَـحْ المُـلكُ للَّهِ رَبِّ العـالَمـين ، اللّهُـمَّ إِنِّـي أسْـأَلُـكَ خَـيْرَ هـذا الـيَوْم ، فَـتْحَهُ ، وَنَصْـرَهُ ، وَنـورَهُ وَبَـرَكَتَـهُ ، وَهُـداهُ ، وَأَعـوذُ بِـكَ مِـنْ شَـرِّ ما فـيهِ وَشَـرِّ ما بَعْـدَه</string>
+    <string name="morning_dua1" translatable="false">The morning has come to me and the whole universe belongs to Allah, the Lord of the worlds, O Allah, I ask of you the good of the day, it\'s success and aid and it\'s nur (celestial light) and barakaat (blessings) and seek hidayah (guidance) and seek refuge from the evil in it (this day) and from the evil of that which is to come later.</string>
+    <string name="morning_dua1_ar_en" translatable="false">asbahna wa asbaha almolko lilahu rabi al AAlamina allahoma ini asAaloka khayra hada al yawmi fathoho wa nasroho wa barakatoho wa hodah wa aOOdo bika min shari ma fihi wa shari mabaAAdahou</string>
+
+    <string name="morning_dua2_title" >Alternatively, recite this dua :</string>
+    <string name="morning_dua2_arabic" translatable="false">اللّهُـمَّ بِكَ أَصْـبَحْنا وَبِكَ أَمْسَـينا ، وَبِكَ نَحْـيا وَبِكَ نَمُـوتُ وَإِلَـيْكَ المَصِيْر</string>
+    <string name="morning_dua2" translatable="false">O Allah we enter the day time and the evening and die with your Qudrat (power) and to You do we return</string>
+    <string name="morning_dua2_ar_en" translatable="false">allahoma bika asbahna wa bika amsayna wa bika nahya wa bika namot wa ilayka al masir</string>
+
+    <string name="morning_dua3_title" >When the sun rises recite :</string>
+    <string name="morning_dua3_arabic" translatable="false">الْحَمْدُ لِلَّهِ الَّذِي أَقَالَنَا يَوْمَنَا هَذَا وَلَمْ يُهْلِكْنَا بِذُنُوبِنَا</string>
+    <string name="morning_dua3" translatable="false">All praise be to Allah who has forgiven us today and not destroyed us due to our sin.</string>
+    <string name="morning_dua3_ar_en" translatable="false">Al hamdo lilahy aladi aqalana yawmana hada wa lam yohlikna wa bidonobina</string>
+
+    <string name="source_morning_dua1">the source of the duas : <a href="https://www.searchtruth.com/dua/1/">searchtruth</a></string>
+
+
+    <string name="morning_and_evening_dua1_title" >Other supplications to be recited in the morning &amp; evenings :</string>
+    <string name="morning_and_evening_dua1_arabic" translatable="false">بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ</string>
+    <string name="morning_and_evening_dua1" translatable="false">We have made (started) the morning (and night) in whose Name nothing in the skies and the earth can harm and He is the All-hearing, the All-knowing.</string>
+    <string name="morning_and_evening_dua1_ar_en" translatable="false">bismi allah al ladi la yadoro maAA ismihi shayAo fi al ardi wala fi al samaAi wa howa samiOO AAlim</string>
+
+
+    <string name="evening_dua1_title" >In the evening recite :</string>
+    <string name="evening_dua1_arabic" translatable="false">أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ رَبِّ الْعَالَمِينَ اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ هَذِهِ اللَّيْلَةَ فَتْحَهَا وَنَصْرَهَا وَنُورَهَا وَبَرَكَتَهَا وَهُدَاهَا وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِيهَا وَشَرِّ مَا بَعْدَهَا</string>
+    <string name="evening_dua1" translatable="false">The evening has come to me and the whole universe belongs to Allah who is The Lord of the worlds. O Allah, I ask of you the good of the night, it\'s success and aid and its nur (celestial light) and barakaat (blessings) and seek hidayat (guidance) and refuge from the evil of this night and the evil that is to come later.</string>
+    <string name="evening_dua1_ar_en" translatable="false">amsayna wamsa almolko lillahi rabbi al AAlamina al lahomma inni asAAloka khayra hadihi al laylata fatḥaha wanasṣraha wanoraha wabarakataha wahodaha waAOOdo bika min sharri ma fiha wacharri ma bAAdaha</string>
+
+
+    <string name="evening_dua2_title" >Alternatively recite this :</string>
+    <string name="evening_dua2_arabic" translatable="false">اللَّهُمَّ بِكَ أَمْسَيْنَا وَبِكَ أَصْبَحْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ</string>
+    <string name="evening_dua2" translatable="false">O Allah we enter the night and the day and live and die with Your Qudrat (strength) and to You do we return.</string>
+    <string name="evening_dua2_ar_en" translatable="false">alahouma bika amsayna wa bika nahya wa bika namot wa ilayka el noshr</string>
+
+    <string name="evening_dua3_title" >After the expiry of Maghrib time, recite this dua :</string>
+    <string name="evening_dua3_arabic" translatable="false">اللَّهُمَّ إِنَّ هَذَا إِقْبَالُ لَيْلِكَ وَإِدْبَارُ نَهَارِكَ وَأَصْوَاتُ دُعَاتِكَ فَاغْفِرْ لِي</string>
+    <string name="evening_dua3" translatable="false">O Allah, this is the time of the coming of the night and the passing of the day and the voices of those calling You to forgive us.</string>
+    <string name="evening_dua3_ar_en" translatable="false">allahoma ina hada iqbalo laylika wa idbaro naharika wa aswato doAAtika faghfirli</string>
+
+    <string name="source_evening_dua1">the source of the duas : <a href="https://www.searchtruth.com/dua/1/">searchtruth</a></string>
+
+
+    <string name="before_sleeping_dua1_arabic" translatable="false">بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، فَإِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا، بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ.</string>
+    <string name="before_sleeping_dua1" translatable="false">In Your name my Lord, I lie down and in Your name I rise, so if You should take my soul then have mercy upon it, and if You should return my soul then protect it in the manner You do so with Your righteous servants.</string>
+    <string name="before_sleeping_dua1_ar_en" translatable="false">Bismika rabbee wadaAAtu janbee wabika arfaAAuh, fa-in amsakta nafsee farhamha, wa-in arsaltaha fahfathha bima tahfathu bihi AAibadakas-saliheen</string>
+
+    <string name="before_sleeping_dua2_arabic" translatable="false">اللَّهمَّ إِنَّكَ خَلَقْتَ نَفْسِي وَأَنْتَ تَوَفَّاهَا لَكَ مَمَاتُهَا وَمَحْيَاهَا، إِنْ أَحْيَيْتَهَا فَاحْفَظْهَا، وَإِنْ أَمَتَّهَا فَاغْفِرْ لَهَا. اللَّهمَّ إِنِّي أَسْأَلُكَ العَافِيَةَ.</string>
+    <string name="before_sleeping_dua2_ar_en" translatable="false">Allahumma innaka khalaqta nafsee wa-anta tawaffaha, laka mamatuha wamahyaha in ahyaytaha fahfathha, wa-in amattaha faghfir laha. Allahumma innee as-alukal-AAafiyah.</string>
+    <string name="before_sleeping_dua2" translatable="false">O Allah, verily You have created my soul and You shall take its life, to You belongs its life and death. If You should keep my soul alive then protect it, and if You should take its life then forgive it. O Allah, I ask You to grant me good health.’</string>
+
+    <string name="before_sleeping_dua3" translatable="false">O Allah, protect me from Your punishment on the day Your servants are resurrected.</string>
+    <string name="before_sleeping_dua3_ar_en" translatable="false">Allahumma qinee AAathabaka yawma tabAAathu AAibadak.</string>
+    <string name="before_sleeping_dua3_arabic" translatable="false">اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ.</string>
+
+    <string name="before_sleeping_dua4" translatable="false">In Your name O Allah, I live and die.</string>
+    <string name="before_sleeping_dua4_ar_en" translatable="false">Bismikal-lahumma amootu wa-ahya.</string>
+    <string name="before_sleeping_dua4_arabic" translatable="false">اللَّهُمَّ بِاسْـمِكَ أَمُوتُ وَأَحْيَا</string>
+
+    <string name="before_sleeping_dua5" translatable="false">All praise is for Allah, Who fed us and gave us drink, and Who is sufficient for us and has sheltered us, for how many have none to suffice them or shelter them.</string>
+    <string name="before_sleeping_dua5_ar_en" translatable="false">Alhamdu lillahil-lathee atAAamana wasaqana, wakafana, wa-awana, fakam mimman la kafiya lahu wala muAwee.</string>
+    <string name="before_sleeping_dua5_arabic" translatable="false">اَلْحَمْدُ للهِ الَّذِي أَطْعَمَنَا وَسَقَانَا، وَكَفَانَا، وَآوَانَا، فَكَمْ مِمَّنْ لا كَافِيَ لَه ُُ وَلا مُؤْوِي.</string>
+
+    <string name="before_sleeping_dua6" translatable="false">O Allah, Knower of the seen and the unseen, Creator of the heavens and the earth, Lord and Sovereign of all things I bear witness that none has the right to be worshipped except You. I take refuge in You from the evil of my soul and from the evil and shirk of the devil, and from committing wrong against my soul or bringing such upon another Muslim.’ shirk: to associate others with Allah in those things which are specific to Him. This can occur in (1) belief, e.g. to believe that other than Allah has the power to benefit or harm, (2) speech, e.g. to swear by other than Allah and (3) action, e.g. to bow or prostrate to other than Allah.</string>
+    <string name="before_sleeping_dua6_ar_en" translatable="false">Allahumma AAalimal-ghaybi washshahadah, fatiras-samawati wal-ard, rabba kulli shayin wamaleekah, ashhadu an la ilaha illa ant, aAAoothu bika min sharri nafsee wamin sharrish-shaytani washirkih, wa-an aqtarifa AAala nafsee soo-an aw ajurrahu ila muslim.</string>
+    <string name="before_sleeping_dua6_arabic" translatable="false">اللَّهمَّ عَالِمَ الغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَاوَاتِ وَالأَرْضِ رَبَّ كُلِّ شَيء ٍ وَمَلِيْكَهُ، أَشْهَدُ أَنْ لا إِلَهََ إِلاَّ أَنْتَ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِي، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِي سُوْءاً أَوْ أَجُرَّهُ~ُ إِلَى مُسْلِم.</string>
+
+    <string name="before_sleeping_dua7" translatable="false">O Allah, I submit my soul unto You, and I entrust my affair unto You, and I turn my face towards You, and I totally rely on You, in hope and fear of You. Verily there is no refuge nor safe haven from You except with You. I believe in Your Book which You have revealed and in Your Prophet whom You have sent.</string>
+    <string name="before_sleeping_dua7_ar_en" translatable="false">Allahumma aslamtu nafsee ilayk, wafawwadtu amree ilayk, wawajjahtu wajhee ilayk, wa-alja/tu thahree ilayk, raghbatan warahbatan ilayk, la maljaa wala manja minka illa ilayk, amantu bikitabikal-lathee anzalt, wabinabiyyikal-lathee arsalt.</string>
+    <string name="before_sleeping_dua7_arabic" translatable="false">اللَّهُمَّ أَسْلَمْتُ نَفْسِي إِلَيْكَ، وَفَوَّضْتُ أَمْرِي إِلَيْكَ، وَوَجَّهْتُ وَجْهِي إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لَا مَلْجَأَ وَلّا مَنْجَا مِنْكَ إِلَّا إِلَيْكَ، آمَنْتُ بِكِتَابِكَ وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ.</string>
+
+    <string name="before_sleeping_dua8" translatable="false">Allah! There is none worthy of worship but He, the Ever Living, the One Who sustains and protects all that exists. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is he that can intercede with Him except with His Permission? He knows what happens to them in this world, and what will happen to them in the Hereafter. And they will never compass anything of His Knowledge except that which He wills. His Throne extends over the heavens and the earth, and He feels no fatigue in guarding and preserving them. And He is the Most High, the Most Great.</string>
+    <string name="before_sleeping_dua8_ar_en" translatable="false">Allaahu laa \'ilaaha \'illaa Huwal-Hayyul-Qayyoom, laa ta\'khuthuhu sinatun wa laa nawm, lahu maa fis-samaawaati wa maafil-\'ardh, man thal-lathee yashfa\'u \'indahu \'illaa bi\'ithnih, ya\'lamu maa bayna \'aydeehim wa maa khalfahum, wa laa yuheetoona bishay\'im-min \'ilmihi \'illaa bimaa shaa\'a, wasi\'a kursiyyuhus-samaawaati wal\'ardh, wa laa ya\'ooduhu hifdhuhumaa, wa Huwal-\'Aliyyul- \'Adheem</string>
+    <string name="before_sleeping_dua8_arabic" translatable="false">اللهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ</string>
+
+    <string name="source_before_sleeping_dua1">the source of the duas : <a href="https://www.islamicfinder.org/duas/masnoon/before-sleeping/">islamicfinder</a></string>
+
+
+    <string name="eating_dua1_title">Dua before eating:</string>
+    <string name="eating_dua1_arabic" translatable="false">بِسْمِ الله</string>
+    <string name="eating_dua1_ar_en" translatable="false">Bismillah.</string>
+    <string name="eating_dua1" translatable="false">In the Name of Allah.</string>
+
+    <string name="eating_dua2_title" >If you forget to say Bismillah before eating, say this dua:</string>
+    <string name="eating_dua2_arabic" translatable="false">بِسْمِ اللَّهِ فِي اَوَّلِهِ وََآخِرهِ</string>
+    <string name="eating_dua2_ar_en" translatable="false">Bismillahi fii awwalihi wa akhirih</string>
+    <string name="eating_dua2" translatable="false">In the Name of Allah, in the beginning and the end.</string>
+
+    <string name="eating_dua3_title" >Dua after eating:</string>
+    <string name="eating_dua3_arabic" translatable="false">الْحَمْدُ لِلَّهِ الَّذِى أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِين</string>
+    <string name="eating_dua3_en_ar" translatable="false">Alhamdulillahilladhii athiamanaa wa saqaanaa wa jaAAlanaa minalmuslimiin.</string>
+    <string name="eating_dua3" translatable="false">All praise and gratitude is due to Allah Who has fed us and given us drink, and Who has made us Muslims.</string>
+
+    <string name="source_eating_dua1">the source of the duas :  <a href="http://www.rahmahmuslimhomeschool.co.uk/index/islamic-study-dua-before-and-after-eating-etiquettes-flashcard/">rahmahmuslimhomeschool</a></string>
+
+
+    <string name="after_the_prayer_dua1_arabic" translatable="false">أَسْتَغْفِرُ الله, أَسْتَغْفِرُ اللهَ, أَسْتَغْفِرُ اللهَ, اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ</string>
+    <string name="after_the_prayer_dua1_ar_en" translatable="false">Astaghfirullaaha, Astaghfirullaaha, Astaghfirullaaha Allaahumma \'Antas-Salaamu wa minkas-salaamu, tabaarakta yaa Thal-Jalaali wal-\'Ikraam.</string>
+    <string name="after_the_prayer_dua1" translatable="false">I seek the forgiveness of Allah, I seek the forgiveness of Allah, I seek the forgiveness of Allah . O Allah, You are Peace and from You comes peace . Blessed are You , O Owner of majesty and honor.</string>
+
+    <string name="after_the_prayer_dua2_arabic" translatable="false">لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ، وَلَا مُعْطِيَ لِمَا مَنَعْتَ، وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ</string>
+    <string name="after_the_prayer_dua2_ar_en" translatable="false">Laa ilaaha illallaahu wahdahu laa shareeka lahu, lahul-mulku wa lahul-hamdu wa Huwa \'alaa kulli shay\'in Qadeer, Allaahumma laa maani\'a limaa \'a\'tayta, wa laa mu\'tiya limaa mana\'ta, wa laa yanfa\'u thal-jaddi minkal-jadd.</string>
+    <string name="after_the_prayer_dua2" translatable="false">None has the right to be worshipped but Allah alone, He has no partner, His is the dominion and His is the praise, and He is Able to do all things. O Allah, there is none who can withhold what You give, and none may give what You have withheld; and the might of the mighty person cannot benefit him against You.</string>
+
+    <string name="after_the_prayer_dua3_arabic" translatable="false">لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ، لَا إِلٰهَ إِلَّا اللهُ، وَلَا نَعْبُدُ إِلَّا إِيَّاهُ، لَه النِّعْمَةُ وَلَهُ الْفَضْلُ وَلَهُ الثَّنَاءُ الْحَسَنُ، لَا إِلٰهَ إِلَّا اللهُ مُخْلِصِينَ لَهُ الدِّينَ وَلَوْ كَرِهَ الْكَافِرُونَ</string>
+    <string name="after_the_prayer_dua3_ar_en" translatable="false">Laa ilaaha illallaahu wahdahu laa shareeka lahu, lahul-mulku, wa lahul-hamdu wa Huwa \'alaa kulli shay \'in Qadeer. Laa hawla wa laa quwwata \'illaa billaahi, laa \'ilaaha \'illallaahu, wa laa na\'budu \'illaa \'iyyaahu, lahun-ni\'matu wa lahul-fadhlu wa lahuth-thanaa\'ul-hasanu, laa \'ilaaha \'illallaahu mukhliseena lahud-deena wa law karihal-kaafiroon.</string>
+    <string name="after_the_prayer_dua3" translatable="false">None has the right to be worshipped but Allah alone, He has no partner, His is the dominion and His is the praise and He is Able to do all things. There is no power and no might except by Allah . None has the right to be worshipped but Allah, and we do not worship any other besides Him . His is grace , and His is bounty and to Him belongs the most excellent praise. None has the right to be worshipped but Allah . (We are) sincere in making our religious devotion to Him, even though the disbelievers may dislike it.</string>
+
+    <string name="after_the_prayer_dua4_arabic" translatable="false">سُبْحَانَ اللهِ، وَالْحَمْدُ للهِ، وَاللهُ أَكْبَرُ -ثَلَاثاً وَثَلَاثِين مرة- لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ</string>
+    <string name="after_the_prayer_dua4_ar_en" translatable="false">Subhaanallaahi, walhamdu lillaahi wallaahu \'Akbar, - Laa \'ilaaha \'illallaahu wahdahu laa shareeka lahu, lahul-mulku wa lahul-hamduwaHuwa\'alaakullishay\'inQadeer.</string>
+    <string name="after_the_prayer_dua4" translatable="false">Glory is to Allah , and praise is to Allah , and Allah is the Most Great (each said thirty-three times). None has the right to be worshipped but Allah alone, He has no partner, His is the dominion and His is the praise and He is Able to do all things.</string>
+
+    <string name="after_the_prayer_dua5_arabic" translatable="false">سْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ \'قُلْ هُوَ اللهُ أَحَدٌ ۞ اللهُ الصَّمَدُ ۞ لَمْ يَلِدْ وَلَمْ يُولَدْ ۞ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ\'</string>
+    <string name="after_the_prayer_dua5_ar_en" translatable="false">Bismillaahir-Rahmaanir-Raheem. Qul Huwallaahu \'Ahad. Allaahus-Samad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan \'ahad.</string>
+    <string name="after_the_prayer_dua5" translatable="false">With the Name of Allah, the Most Gracious, the Most Merciful. Say: He is Allah (the) One. The Self-Sufficient Master, Whom all creatures need, He begets not nor was He begotten, and there is none equal to Him.</string>
+
+    <string name="after_the_prayer_dua6_arabic" translatable="false">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ\'قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۞ مِن شَرِّ مَا خَلَقَ ۞ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ۞ وَمِن شَرِّ النَّفّٰثَٰتِ فِي الْعُقَدِ ۞ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ\'</string>
+    <string name="after_the_prayer_dua6_ar_en" translatable="false">Bismillaahir-Rahmaanir-Raheem. Qul \'a\'oothu birabbil-falaq. Min sharri maa khalaq. Wa min sharri ghaasiqin \'ithaa waqab. Wa min sharrin-naffaathaati fil-\'uqad. Wa min sharri haasidin \'ithaa hasad.</string>
+    <string name="after_the_prayer_dua6" translatable="false">With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek refuge with (Allah) the Lord of the daybreak, from the evil of what He has created, and from the evil of the darkening (night) as it comes with its darkness, and from the evil of those who practice witchcraft when they blow in the knots, and from the evil of the envier when he envies.</string>
+
+    <string name="after_the_prayer_dua7_arabic" translatable="false">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ \'قُلْ أَعُوذُ بِرَبِّ النَّاسِ ۞ مَلِكِ النَّاسِ ۞ إِلَهِ النَّاسِ ۞ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۞ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۞ مِنَ الْجِنَّةِ وَالنَّاسِ\'.  -تقرأ مرة بعد كل صلاة وثلاثة مرات بعد صلاتي المغرب والفجر-</string>
+    <string name="after_the_prayer_dua7_ar_en" translatable="false">Bismillaahir-Rahmaanir-Raheem . Qul \'a\'oothu birabbin-naas . Malikin-naas . \'Ilaahin-naas . Min sharril-waswaasil-khannaas. Allathee yuwaswisu fee sudoorin-naas. Minal-jinnati wannaas.</string>
+    <string name="after_the_prayer_dua7" translatable="false">With the Name of Allah , the Most Gracious , the Most Merciful. Say: I seek refuge with (Allah) the Lord of mankind, the King of mankind , the God of mankind , from the evil of the whisperer who withdraws, who whispers in the breasts of mankind, of jinns and men.  (These Surahs should be recited in Arabic after each prayer. After the Maghrib and Fajr prayers they should be recited three times each.) </string>
+
+    <string name="after_the_prayer_dua8_arabic" translatable="false">ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَئُودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ. -تقرأ بعد كل صلاة - </string>
+    <string name="after_the_prayer_dua8_ar_en" translatable="false">Allaahu laa \'ilaaha \'illaa Huwal-Hayyul-Qayyoom, laa ta\'khuthuhu sinatun wa laa nawm, lahu maa fis-samaawaati wa maafil-\'ardh, man thal-lathee yashfa\'u \'indahu \'illaa bi\'ithnih, ya\'lamu maa bayna \'aydeehim wa maa khalfahum, wa laa yuheetoona bishay\'im-min \'ilmihi \'illaa bimaa shaa\'a, wasi\'a kursiyyuhus-samaawaati wal\'ardh, wa laa ya\'ooduhu hifdhuhumaa, wa Huwal-\'Aliyyul- \'Adheem.</string>
+    <string name="after_the_prayer_dua8" translatable="false">Allah! There is none worthy of worship but He, the Ever Living, the One Who sustains and protects all that exists. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is he that can intercede with Him except with His Permission? He knows what happens to them in this world, and what will happen to them in the Hereafter. And they will never encompass anything of His Knowledge except that which He wills. His Throne extends over the heavens and the earth, and He feels no fatigue in guarding and preserving them. And He is the Most High, the Most Great. (Recite in Arabic after each prayer.)</string>
+
+    <string name="after_the_prayer_dua9_arabic" translatable="false">لَا إِلٰهَ إِلَّا اللهُ وَحَدْهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ. تقرأ 10 مرات بعد صلاتي المغرب والفجر</string>
+    <string name="after_the_prayer_dua9_ar_en"  translatable="false">Laa \'ilaaha \'illallaahu wahdahu laa shareeka lahu, lahul-mulku wa lahul-hamdu yuhyee wa yumeetu wa Huwa \'alaa kulli shay\'in Qadeer.</string>
+    <string name="after_the_prayer_dua9" translatable="false">None has the right to be worshipped but Allah alone, Who has no partner. His is the dominion and His is the praise . He brings life and He causes death , and He is Able to do all things. (Recite ten times in Arabic after the Maghrib and Fajr prayers.)</string>
+
+    <string name="after_the_prayer_dua10_arabic" translatable="false">اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْماً نَافِعاً، وَرِزْقاً طَيِّباً، وَعَمَلاً مُتَقَبَّلاً. تقرا بعد صلاة الفجر</string>
+    <string name="after_the_prayer_dua10_ar_en" translatable="false">Allaahumma \'innee \'as\'aluka \'ilman naafi\'an, wa rizqan tayyiban, wa \'amalan mutaqabbalan.</string>
+    <string name="after_the_prayer_dua10" translatable="false">O Allah, I ask You for knowledge that is of benefit , a good provision , and deeds that will be accepted. (Recite in Arabic after the Fajr prayer.)</string>
+
+    <string name="source_after_the_prayer">the source of the duas :  <a href="https://www.islamawareness.net/Dua/Fortress/025.html/">islamawareness</a></string>
+    <string name="okay">okay</string>
+
+
+    <string name="tasbih_subhan_allah_arabic" translatable="false">سبحان الله</string>
+    <string name="tasbih_subhan_allah_ar_en" translatable="false">Subhan Allah</string>
+    <string name="tasbih_subhan_allah" translatable="false">the praise of God</string>
+
+    <string name="tasbih_alhamdou_lilah_arabic" translatable="false">الحمد الله</string>
+    <string name="tasbih_alhamdou_lilah_ar_en" translatable="false">Alhamdu lilah</string>
+    <string name="tasbih_alhamdou_lilah" translatable="false">praise be to God</string>
+
+    <string name="tasbih_allahu_akbar_arabic" translatable="false">الله أكبر</string>
+    <string name="tasbih_allahu_akbar_ar_en" translatable="false">Allahu Akbar</string>
+    <string name="tasbih_allahu_akbar" translatable="false">Allah is the greatest</string>
+
+    <string name="tasbih_la_ilaha_ila_allah2_arabic" translatable="false">لا إله إلا الله وحده لا شريك له, له الملك وله الحمد وهو على كل شيئ قدير</string>
+    <string name="tasbih_la_ilaha_ila_allah2_ar_en" translatable="false">la ilaha ila allah wahdahu la sharika lahu,lahu almulku wa waho al hamdu wa houwa Alla kuli chayAin qadir</string>
+    <string name="tasbih_la_ilaha_ila_allah2" translatable="false">there is no god but Allah alone with no partners, he is the dominion, and to him belongs all praise and he is powerful over all things</string>
+
+    <string name="tasbih_la_ilaha_ila_allah_arabic" translatable="false">لا إله إلا الله</string>
+    <string name="tasbih_la_ilaha_ila_allah_ar_en" translatable="false">la ilaha ila allah</string>
+    <string name="tasbih_la_ilaha_ila_allah" translatable="false">there is no god but Allah</string>
+
+    <string name="tasbih_astaghfiru_allah_arabic" translatable="false">أستغفر الله</string>
+    <string name="tasbih_astaghfiru_allah_ar_en" translatable="false">Astaghfiru Allah</string>
+    <string name="tasbih_astaghfiru_allah" translatable="false">I ask Allah for his forgiveness</string>
+
+    <string name="tasbih_Allahuma_sali_wasalim_arabic" translatable="false">اللهم صلي وسلم على سيدنا محمد</string>
+    <string name="tasbih_Allahuma_sali_wasalim_ar_en" translatable="false">Allahuma sali wa salim AAla sayidina Muhamad</string>
+    <string name="tasbih_Allahuma_sali_wasalim" translatable="false">O Allah, peace and blessings upon the prophet Muhammad</string>
+
+    <string name="tasbih_la_hawla_arabic" translatable="false">لا حول ولا قوة إلا بالله</string>
+    <string name="tasbih_la_hawla_ar_en" translatable="false">la hawla wala quwata ila bilah</string>
+    <string name="tasbih_la_hawla" translatable="false">there is no power but from God</string>
+
+    <string name="tasbih_subhan_allah_wa_bihamdih_arabic" translatable="false">سبحان الله وبحمده سبحان الله العظيم</string>
+    <string name="tasbih_subhan_allah_wa_bihamdih_ar_en" translatable="false">subhan allah wa bihamdih subhan allah alAAdim</string>
+    <string name="tasbih_subhan_allah_wa_bihamdih" translatable="false">Glory be to Allah, and praise, glory be to Allah the great</string>
+
+    <string name="tasbih_la_ilaha_ila_allah3_arabic" translatable="false">لا إله الا أنت سبحانك إني كنت من الظالمين</string>
+    <string name="tasbih_la_ilaha_ila_allah3_ar_en" translatable="false">la illaha ila anta subhanaka ini kuntu mina dalimin</string>
+    <string name="tasbih_la_ilaha_ila_allah3" translatable="false">there is no god but you, praise to you i have been one of those who did wrong</string>
+
+    <string name="the_thikr">the thikr</string>
+    <string name="how_many_times_do_you_want_to_repeat_it">how many times do you want to repeat it</string>
+    <string name="you_have_completed">You Have Completed</string>
+    <string name="repeat_again">Repeat Again</string>
+    <string name="cancel">Cancel</string>
+    <string name="you_cannot_leave_anything_empty">You cannot leave anything empty</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="repeat_with_other_settings">Repeat with other settings</string>
+    <string name="settings">Settings</string>
+    <string name="vibration_on_every_tasbiha">Vibration On Every Tasbiha</string>
+    <string name="language">Language</string>
+    <string name="vibration_when_the_thikr_changes">Vibration When The Thikr Changes</string>
+    <string name="save">Save</string>
+
+    <string name="link_copied_to_clipboard">Link copied to clipboard</string>
+    <string name="udnthvfb">this device doesn\'t have the Facebook app please choose another way to share</string>
+    <string name="udnthvmessanger">this device doesn\'t have the Messenger app please choose another way to share</string>
+    <string name="udnthvwhatsapp">this device doesn\'t have the What\'sApp app please choose another way to share</string>
+    <string name="udnthvtwitter">this device doesn\'t have the Twitter app please choose another way to share</string>
+    <string name="choose_language">Choose language</string>
+    <string name="reset_this_thikr_only">Reset This Thikr Only</string>
+    <string name="reset_every_thing">Reset Every thing</string>
+    <string name="add_another_thikr">Add Another Thikr</string>
+
+    <string name="surat_al_mulk">Surat Al Mulk ... to be read every night</string>
+    <string name="surat_al_mulk_title">Surat Al Mulk</string>
+
+    <string name="source_surat_al_mulk1">the source : <a href="https://www.quran411.com/surah-mulk.asp">quran411</a></string>
+
+    <string name="surat_al_kahf">Surat Al Kahf ... to be read every friday</string>
+    <string name="surat_al_kahf_title">Surat Al Kahf</string>
+
+    <string name="source_surat_al_kahf1">the source of the surah and the transliterlation :  <a href="https://www.islamicfinder.org/quran/surah-al-kahf/11/?translation=arabic-king-fahad-quran-complex">islamicfinder</a></string>
+    <string name="source_surat_al_kahf2">the source of the translation :  <a href="https://quran.com/18">quran</a></string>
+
+    <string name="bismilah_ar" translatable="false" >بسم الله الرحمان الرحيم</string>
+    <string name="bismilah_ar_en" translatable="false" >bismilahi al rahmani al rahim</string>
+    <string name="bismilah_en" translatable="false" >In the name of God, most Gracious, most Compassionate</string>
+
+    <string name="alkahf_aya1_ar" translatable="false" >ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَٰبَ وَلَمْ يَجْعَل لَّهُۥ عِوَجَا</string>
+    <string name="alkahf_aya1_ar_en" translatable="false" >Alhamdu lillahi allathee anzala AAala AAabdihi alkitaba walam yajAAal lahu AAiwajan</string>
+    <string name="alkahf_aya1_en" translatable="false" >[All] praise is [due] to Allah, who has sent down upon His Servant the Book and has not made therein any deviance.</string>
+    <string name="alkahf_aya2_ar" translatable="false" >قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا</string>
+    <string name="alkahf_aya2_ar_en" translatable="false" >Qayyiman liyunthira basan shadeedan min ladunhu wayubashshira almumineena allatheena yaAAmaloona alssalihati anna lahum ajran hasanan</string>
+    <string name="alkahf_aya2_en" translatable="false" >[He has made it] straight, to warn of severe punishment from Him and to give good tidings to the believers who do righteous deeds that they will have a good reward</string>
+    <string name="alkahf_aya3_ar" translatable="false" >مَّٰكِثِينَ فِيهِ أَبَدًا</string>
+    <string name="alkahf_aya3_ar_en" translatable="false" >Makitheena feehi abadan</string>
+    <string name="alkahf_aya3_en" translatable="false" >In which they will remain forever</string>
+    <string name="alkahf_aya4_ar" translatable="false" >وَيُنذِرَ ٱلَّذِينَ قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا</string>
+    <string name="alkahf_aya4_ar_en" translatable="false" >Wayunthira allatheena qaloo ittakhatha Allahu waladan</string>
+    <string name="alkahf_aya4_en" translatable="false" >And to warn those who say, Allah has taken a son</string>
+    <string name="alkahf_aya5_ar" translatable="false" >مَّا لَهُم بِهِۦ مِنْ عِلْمٍ وَلَا لِءَابَآئِهِمْ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَٰهِهِمْ إِن يَقُولُونَ إِلَّا كَذِبًا</string>
+    <string name="alkahf_aya5_ar_en" translatable="false" >Ma lahum bihi min AAilmin wala liabaihim kaburat kalimatan takhruju min afwahihim in yaqooloona illa kathiban</string>
+    <string name="alkahf_aya5_en" translatable="false" >They have no knowledge of it, nor had their fathers. Grave is the word that comes out of their mouths; they speak not except a lie.</string>
+    <string name="alkahf_aya6_ar" translatable="false" >فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ ءَاثَٰرِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا</string>
+    <string name="alkahf_aya6_ar_en" translatable="false" >FalaAAallaka bakhiAAun nafsaka AAala atharihim in lam yuminoo bihatha alhadeethi asafan</string>
+    <string name="alkahf_aya6_en" translatable="false" >Then perhaps you would kill yourself through grief over them, [O Muhammad], if they do not believe in this message, [and] out of sorrow.</string>
+    <string name="alkahf_aya7_ar" translatable="false" >إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا</string>
+    <string name="alkahf_aya7_ar_en" translatable="false" >Inna jaAAalna ma AAala alardi zeenatan laha linabluwahum ayyuhum ahsanu AAamalan</string>
+    <string name="alkahf_aya7_en" translatable="false" >Indeed, We have made that which is on the earth adornment for it that We may test them [as to] which of them is best in deed.</string>
+    <string name="alkahf_aya8_ar" translatable="false" >وَإِنَّا لَجَٰعِلُونَ مَا عَلَيْهَا صَعِيدًا جُرُزًا</string>
+    <string name="alkahf_aya8_ar_en" translatable="false" >Wainna lajaAAiloona ma AAalayha saAAeedan juruzan</string>
+    <string name="alkahf_aya8_en" translatable="false" >And indeed, We will make that which is upon it [into] a barren ground.</string>
+    <string name="alkahf_aya9_ar" translatable="false" >أَمْ حَسِبْتَ أَنَّ أَصْحَٰبَ ٱلْكَهْفِ وَٱلرَّقِيمِ كَانُوا۟ مِنْ ءَايَٰتِنَا عَجَبًا</string>
+    <string name="alkahf_aya9_ar_en" translatable="false" >Am hasibta anna ashaba alkahfi waalrraqeemi kanoo min ayatina AAajaban</string>
+    <string name="alkahf_aya9_en" translatable="false" >Or have you thought that the companions of the cave and the inscription were, among Our signs, a wonder?</string>
+    <string name="alkahf_aya10_ar" translatable="false" >إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا</string>
+    <string name="alkahf_aya10_ar_en" translatable="false" >Ith awa alfityatu ila alkahfi faqaloo rabbana atina min ladunka rahmatan wahayyi lana min amrina rashadan</string>
+    <string name="alkahf_aya10_en" translatable="false" >[Mention] when the youths retreated to the cave and said, Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance.</string>
+    <string name="alkahf_aya11_ar" translatable="false" >فَضَرَبْنَا عَلَىٰٓ ءَاذَانِهِمْ فِى ٱلْكَهْفِ سِنِينَ عَدَدًا</string>
+    <string name="alkahf_aya11_ar_en" translatable="false" >Fadarabna AAala athanihim fee alkahfi sineena AAadadan</string>
+    <string name="alkahf_aya11_en" translatable="false" >So We cast [a cover of sleep] over their ears within the cave for a number of years.</string>
+    <string name="alkahf_aya12_ar" translatable="false" >ثُمَّ بَعَثْنَٰهُمْ لِنَعْلَمَ أَىُّ ٱلْحِزْبَيْنِ أَحْصَىٰ لِمَا لَبِثُوٓا۟ أَمَدًا</string>
+    <string name="alkahf_aya12_ar_en" translatable="false" >Thumma baAAathnahum linaAAlama ayyu alhizbayni ahsa lima labithoo amadan</string>
+    <string name="alkahf_aya12_en" translatable="false" >Then We awakened them that We might show which of the two factions was most precise in calculating what [extent] they had remained in time.</string>
+    <string name="alkahf_aya13_en" translatable="false" >It is We who relate to you, [O Muhammad], their story in truth. Indeed, they were youths who believed in their Lord, and We increased them in guidance.</string>
+    <string name="alkahf_aya13_ar_en" translatable="false" >Nahnu naqussu AAalayka nabaahum bialhaqqi innahum fityatun amanoo birabbihim wazidnahum hudan</string>
+    <string name="alkahf_aya13_ar" translatable="false" >نَّحْنُ نَقُصُّ عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ إِنَّهُمْ فِتْيَةٌ ءَامَنُوا۟ بِرَبِّهِمْ وَزِدْنَٰهُمْ هُدًى</string>
+    <string name="alkahf_aya14_en" translatable="false" >And We made firm their hearts when they stood up and said, Our Lord is the Lord of the heavens and the earth. Never will we invoke besides Him any deity. We would have certainly spoken, then, an excessive transgression.</string>
+    <string name="alkahf_aya14_aren" translatable="false" >Warabatna AAala quloobihim ith qamoo faqaloo rabbuna rabbu alssamawati waalardi lan nadAAuwa min doonihi ilahan laqad qulna ithan shatatan</string>
+    <string name="alkahf_aya14_ar" translatable="false" >وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًا لَّقَدْ قُلْنَآ إِذًا شَطَطًا</string>
+    <string name="alkahf_aya15_en" translatable="false" >These, our people, have taken besides Him deities. Why do they not bring for [worship of] them a clear authority? And who is more unjust than one who invents about Allah a lie?</string>
+    <string name="alkahf_aya15_ar_en" translatable="false" >Waithi iAAtazaltumoohum wama yaAAbudoona illa Allaha fawoo ila alkahfi yanshur lakum rabbukum min rahmatihi wayuhayyi lakum min amrikum mirfaqan</string>
+    <string name="alkahf_aya15_ar" translatable="false" >وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا</string>
+    <string name="alkahf_aya16_ar" translatable="false" >وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا</string>
+    <string name="alkahf_aya16_ar_en" translatable="false" >Waithi iAAtazaltumoohum wama yaAAbudoona illa Allaha fawoo ila alkahfi yanshur lakum rabbukum min rahmatihi wayuhayyi lakum min amrikum mirfaqan</string>
+    <string name="alkahf_aya16_en" translatable="false" >[The youths said to one another], And when you have withdrawn from them and that which they worship other than Allah, retreat to the cave. Your Lord will spread out for you of His mercy and will prepare for you from your affair facility.</string>
+    <string name="alkahf_aya17_ar" translatable="false" >وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ذَٰلِكَ مِنْ ءَايَٰتِ ٱللَّهِ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا</string>
+    <string name="alkahf_aya17_ar_en" translatable="false" >Watara alshshamsa itha talaAAat tazawaru AAan kahfihim thata alyameeni waitha gharabat taqriduhum thata alshshimali wahum fee fajwatin minhu thalika min ayati Allahi man yahdi Allahu fahuwa almuhtadi waman yudlil falan tajida lahu waliyyan murshidan</string>
+    <string name="alkahf_aya17_en" translatable="false" >And [had you been present], you would see the sun when it rose, inclining away from their cave on the right, and when it set, passing away from them on the left, while they were [laying] within an open space thereof. That was from the signs of Allah . He whom Allah guides is the [rightly] guided, but he whom He leaves astray - never will you find for him a protecting guide.</string>
+    <string name="alkahf_aya18_en" translatable="false" >And you would think them awake, while they were asleep. And We turned them to the right and to the left, while their dog stretched his forelegs at the entrance. If you had looked at them, you would have turned from them in flight and been filled by them with terror.</string>
+    <string name="alkahf_aya18_ar_en" translatable="false" >Watahsabuhum ayqathan wahum ruqoodun wanuqallibuhum thata alyameeni wathata alshshimali wakalbuhum basitun thiraAAayhi bialwaseedi lawi ittalaAAta AAalayhim lawallayta minhum firaran walamulita minhum ruAAban</string>
+    <string name="alkahf_aya18_ar" translatable="false" >وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ وَكَلْبُهُم بَٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا</string>
+    <string name="alkahf_aya19_en" translatable="false" >And similarly, We awakened them that they might question one another. Said a speaker from among them, How long have you remained [here]?. They said, We have remained a day or part of a day. They said, Your Lord is most knowing of how long you remained. So send one of you with this silver coin of yours to the city and let him look to which is the best of food and bring you provision from it and let him be cautious. And let no one be aware of you.</string>
+    <string name="alkahf_aya19_ar_en" translatable="false" >Wakathalika baAAathnahum liyatasaaloo baynahum qala qailun minhum kam labithtum qaloo labithna yawman aw baAAda yawmin qaloo rabbukum aAAlamu bima labithtum faibAAathoo ahadakum biwariqikum hathihi ila almadeenati falyanthur ayyuha azka taAAaman falyatikum birizqin minhu walyatalattaf wala yushAAiranna bikum ahadan</string>
+    <string name="alkahf_aya19_ar" translatable="false" >وَكَذَٰلِكَ بَعَثْنَٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ قَالَ قَآئِلٌ مِّنْهُمْ كَمْ لَبِثْتُمْ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا يُشْعِرَنَّ بِكُمْ أَحَدًا</string>
+    <string name="alkahf_aya20_en" translatable="false" >Indeed, if they come to know of you, they will stone you or return you to their religion. And never would you succeed, then - ever.</string>
+    <string name="alkahf_aya20_ar_en" translatable="false" >Innahum in yathharoo AAalaykum yarjumookum aw yuAAeedookum fee millatihim walan tuflihoo ithan abadan</string>
+    <string name="alkahf_aya20_ar" translatable="false" >إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًا</string>
+    <string name="alkahf_aya21_en" translatable="false" >And similarly, We caused them to be found that they [who found them] would know that the promise of Allah is truth and that of the Hour there is no doubt. [That was] when they disputed among themselves about their affair and [then] said, Construct over them a structure. Their Lord is most knowing about them. Said those who prevailed in the matter, We will surely take [for ourselves] over them a masjid.</string>
+    <string name="alkahf_aya21_ar_en" translatable="false" >Wakathalika aAAtharna AAalayhim liyaAAlamoo anna waAAda Allahi haqqun waanna alsaAAata la rayba feeha ith yatanazaAAoona baynahum amrahum faqaloo ibnoo AAalayhim bunyanan rabbuhum aAAlamu bihim qala allatheena ghalaboo AAala amrihim lanattakhithanna AAalayhim masjidan</string>
+    <string name="alkahf_aya21_ar" translatable="false" >وَكَذَٰلِكَ أَعْثَرْنَا عَلَيْهِمْ لِيَعْلَمُوٓا۟ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَأَنَّ ٱلسَّاعَةَ لَا رَيْبَ فِيهَآ إِذْ يَتَنَٰزَعُونَ بَيْنَهُمْ أَمْرَهُمْ فَقَالُوا۟ ٱبْنُوا۟ عَلَيْهِم بُنْيَٰنًا رَّبُّهُمْ أَعْلَمُ بِهِمْ قَالَ ٱلَّذِينَ غَلَبُوا۟ عَلَىٰٓ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًا</string>
+    <string name="alkahf_aya22_en" translatable="false" >They will say there were three, the fourth of them being their dog; and they will say there were five, the sixth of them being their dog - guessing at the unseen; and they will say there were seven, and the eighth of them was their dog. Say, [O Muhammad], My Lord is most knowing of their number. None knows them except a few. So do not argue about them except with an obvious argument and do not inquire about them among [the speculators] from anyone.</string>
+    <string name="alkahf_aya22_ar_en" translatable="false" >Sayaqooloona thalathatun rabiAAuhum kalbuhum wayaqooloona khamsatun sadisuhum kalbuhum rajman bialghaybi wayaqooloona sabAAatun wathaminuhum kalbuhum qul rabbee aAAlamu biAAiddatihim ma yaAAlamuhum illa qaleelun fala tumari feehim illa miraan thahiran wala tastafti feehim minhum ahadan</string>
+    <string name="alkahf_aya22_ar" translatable="false" >سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا</string>
+    <string name="alkahf_aya24_en" translatable="false" >Except [when adding], If Allah wills. And remember your Lord when you forget [it] and say, perhaps my Lord will guide me to what is nearer than this to right conduct.</string>
+    <string name="alkahf_aya24_ar_en" translatable="false" >Illa an yashaa Allahu waothkur rabbaka itha naseeta waqul AAasa an yahdiyani rabbee liaqraba min hatha rashadan</string>
+    <string name="alkahf_aya24_ar" translatable="false" >إِلَّآ أَن يَشَآءَ ٱللَّهُ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا رَشَدًا</string>
+    <string name="alkahf_aya23_en" translatable="false" >And never say of anything, Indeed, I will do that tomorrow,</string>
+    <string name="alkahf_aya_23_ar_en" translatable="false" >Wala taqoolanna lishayin innee faAAilun thalika ghadan</string>
+    <string name="alkahf_aya23_ar" translatable="false" >وَلَا تَقُولَنَّ لِشَا۟ىْءٍ إِنِّى فَاعِلٌ ذَٰلِكَ غَدًا</string>
+    <string name="alkahf_aya110_en" translatable="false" >Say, I am only a man like you, to whom has been revealed that your god is one God. So whoever would hope for the meeting with his Lord - let him do righteous work and not associate in the worship of his Lord anyone.</string>
+    <string name="alkahf_aya110_ar_en" translatable="false" >Qul innama ana basharun mithlukum yooha ilayya annama ilahukum ilahun wahidun faman kana yarjoo liqaa rabbihi falyaAAmal AAamalan salihan wala yushrik biAAibadati rabbihi ahadan</string>
+    <string name="alkahf_aya110_ar" translatable="false" >قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَٰلِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا</string>
+    <string name="alkahf_aya109_en" translatable="false" >Say, If the sea were ink for [writing] the words of my Lord, the sea would be exhausted before the words of my Lord were exhausted, even if We brought the like of it as a supplement.</string>
+    <string name="alkahf_aya109_ar_en" translatable="false" >Qul law kana albahru midadan likalimati rabbee lanafida albahru qabla an tanfada kalimatu rabbee walaw jina bimithlihi madadan</string>
+    <string name="alkahf_aya109_ar" translatable="false" >قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًا</string>
+    <string name="alkahf_aya108_en" translatable="false" >Wherein they abide eternally. They will not desire from it any transfer.</string>
+    <string name="alkahf_aya108_ar_en" translatable="false" >Khalideena feeha la yabghoona AAanha hiwalan</string>
+    <string name="alkahf_aya108_ar" translatable="false" >خَٰلِدِينَ فِيهَا لَا يَبْغُونَ عَنْهَا حِوَلًا</string>
+    <string name="alkahf_aya107_en" translatable="false" >Indeed, those who have believed and done righteous deeds - they will have the Gardens of Paradise as a lodging,</string>
+    <string name="alkahf_aya107_ar_en" translatable="false" >Inna allatheena amanoo waAAamiloo alssalihati kanat lahum jannatu alfirdawsi nuzulan</string>
+    <string name="alkahf_aya107ar" translatable="false" >إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ كَانَتْ لَهُمْ جَنَّٰتُ ٱلْفِرْدَوْسِ نُزُلًا</string>
+    <string name="alkahf_aya106_en" translatable="false" >That is their recompense - Hell - for what they denied and [because] they took My signs and My messengers in ridicule.</string>
+    <string name="alkahf_aya106_ar_en" translatable="false" >Thalika jazaohum jahannamu bima kafaroo waittakhathoo ayatee warusulee huzuwan</string>
+    <string name="alkahf_aya106_ar" translatable="false" >ذَٰلِكَ جَزَآؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا۟ وَٱتَّخَذُوٓا۟ ءَايَٰتِى وَرُسُلِى هُزُوًا</string>
+    <string name="alkahf_aya105_en" translatable="false" >Those are the ones who disbelieve in the verses of their Lord and in [their] meeting Him, so their deeds have become worthless; and We will not assign to them on the Day of Resurrection any importance.</string>
+    <string name="alkahf_aya105_en_ar" translatable="false" >Olaika allatheena kafaroo biayati rabbihim waliqaihi fahabitat aAAmaluhum fala nuqeemu lahum yawma alqiyamati waznan</string>
+    <string name="alkahf_aya105_ar" translatable="false" >أُو۟لَٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَلِقَآئِهِۦ فَحَبِطَتْ أَعْمَٰلُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ ٱلْقِيَٰمَةِ وَزْنًا</string>
+    <string name="alkahf_aya104_en" translatable="false" >[They are] those whose effort is lost in worldly life, while they think that they are doing well in work.</string>
+    <string name="alkahf_aya104_ar_en" translatable="false" >Allatheena dalla saAAyuhum fee alhayati alddunya wahum yahsaboona annahum yuhsinoona sunAAan</string>
+    <string name="alkahf_aya104_ar" translatable="false" >ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا</string>
+    <string name="alkahf_aya103_en" translatable="false" >Say, [O Muhammad], Shall we [believers] inform you of the greatest losers as to [their] deeds?</string>
+    <string name="alkahf_aya103_ar_en" translatable="false" >Qul hal nunabbiokum bialakhsareena aAAmalan</string>
+    <string name="alkahf_aya103_ar" translatable="false" >قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَٰلًا</string>
+    <string name="alkahf_aya102_en" translatable="false" >Then do those who disbelieve think that they can take My servants instead of Me as allies? Indeed, We have prepared Hell for the disbelievers as a lodging.</string>
+    <string name="alkahf_aya102_ar_en" translatable="false" >Afahasiba allatheena kafaroo an yattakhithoo AAibadee min doonee awliyaa inna aAAtadna jahannama lilkafireena nuzulan</string>
+    <string name="alkahf_aya102_ar" translatable="false" >أَفَحَسِبَ ٱلَّذِينَ كَفَرُوٓا۟ أَن يَتَّخِذُوا۟ عِبَادِى مِن دُونِىٓ أَوْلِيَآءَ إِنَّآ أَعْتَدْنَا جَهَنَّمَ لِلْكَٰفِرِينَ نُزُلًا</string>
+    <string name="alkahf_aya101_en" translatable="false" >Those whose eyes had been within a cover [removed] from My remembrance, and they were not able to hear.</string>
+    <string name="alkahf_aya101_ar_en" translatable="false" >Allatheena kanat aAAyunuhum fee ghitain AAan thikree wakanoo la yastateeAAoona samAAan</string>
+    <string name="alkahf_aya101_ar" translatable="false" >ٱلَّذِينَ كَانَتْ أَعْيُنُهُمْ فِى غِطَآءٍ عَن ذِكْرِى وَكَانُوا۟ لَا يَسْتَطِيعُونَ سَمْعًا</string>
+    <string name="alkahf_aya100_en" translatable="false" >And We will present Hell that Day to the Disbelievers, on display -</string>
+    <string name="alkahf_aya100_ar_en" translatable="false" >WaAAaradna jahannama yawmaithin lilkafireena AAardan</string>
+    <string name="alkahf_aya100_ar" translatable="false" >وَعَرَضْنَا جَهَنَّمَ يَوْمَئِذٍ لِّلْكَٰفِرِينَ عَرْضًا</string>
+    <string name="alkahf_aya99_en" translatable="false" >And We will leave them that day surging over each other, and [then] the Horn will be blown, and We will assemble them in [one] assembly.</string>
+    <string name="alkahf_aya99_ar_en" translatable="false" >Watarakna baAAdahum yawmaithin yamooju fee baAAdin wanufikha fee alssoori fajamaAAnahum jamAAan</string>
+    <string name="alkahf_aya99_ar" translatable="false" >وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًا</string>
+    <string name="alkahf_aya98_en" translatable="false" >[Dhul-Qarnayn] said, This is a mercy from my Lord; but when the promise of my Lord comes, He will make it level, and ever is the promise of my Lord true.</string>
+    <string name="alkahf_aya98_ar_en" translatable="false" >Qala hatha rahmatun min rabbee faitha jaa waAAdu rabbee jaAAalahu dakkaa wakana waAAdu rabbee haqqan</string>
+    <string name="alkahf_aya98_ar" translatable="false" >قَالَ هَٰذَا رَحْمَةٌ مِّن رَّبِّى فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ وَكَانَ وَعْدُ رَبِّى حَقًّا</string>
+    <string name="alkahf_aya97_en" translatable="false" >So Gog and Magog were unable to pass over it, nor were they able [to effect] in it any penetration.</string>
+    <string name="alkahf_aya97_ar_en" translatable="false" >Fama istaAAoo an yathharoohu wama istataAAoo lahu naqban</string>
+    <string name="alkahf_aya97_ar" translatable="false" >فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًا</string>
+    <string name="alkahf_aya96_en" translatable="false" >Bring me sheets of iron - until, when he had leveled [them] between the two mountain walls, he said, Blow [with bellows], until when he had made it [like] fire, he said, Bring me, that I may pour over it molten copper.</string>
+    <string name="alkahf_aya96_ar_en" translatable="false" >Atoonee zubara alhadeedi hatta itha sawa bayna alsadafayni qala onfukhoo hatta itha jaAAalahu naran qala atoonee ofrigh AAalayhi qitran</string>
+    <string name="alkahf_aya96_ar" translatable="false" >ءَاتُونِى زُبَرَ ٱلْحَدِيدِ حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًا</string>
+    <string name="alkahf_aya95_en" translatable="false" >He said, That in which my Lord has established me is better [than what you offer], but assist me with strength; I will make between you and them a dam.</string>
+    <string name="alkahf_aya95_ar_en" translatable="false" >Qala ma makkannee feehi rabbee khayrun faaAAeenoonee biquwwatin ajAAal baynakum wabaynahum radman</string>
+    <string name="alkahf_aya95_ar" translatable="false" >قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌ فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا</string>
+    <string name="alkahf_aya94_en" translatable="false" >They said, O Dhul-Qarnayn, indeed Gog and Magog are [great] corrupters in the land. So may we assign for you an expenditure that you might make between us and them a barrier?</string>
+    <string name="alkahf_aya94_ar_en" translatable="false" >Qaloo ya tha alqarnayni inna yajooja wamajooja mufsidoona fee alardi fahal najAAalu laka kharjan AAala an tajAAala baynana wabaynahum saddan</string>
+    <string name="alkahf_aya94_ar" translatable="false" >قَالُوا۟ يَٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّا</string>
+    <string name="alkahf_aya93_en" translatable="false" >Until, when he reached [a pass] between two mountains, he found beside them a people who could hardly understand [his] speech.</string>
+    <string name="alkahf_aya93_ar_en" translatable="false" >Hatta itha balagha bayna alssaddayni wajada min doonihima qawman la yakadoona yafqahoona qawlan</string>
+    <string name="alkahf_aya93_ar" translatable="false" >حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًا</string>
+    <string name="alkahf_aya92_en" translatable="false" >Then he followed a way</string>
+    <string name="alkahf_aya92_ar_en" translatable="false" >Thumma atbaAAa sababan</string>
+    <string name="alkahf_aya92_ar" translatable="false" >ثُمَّ أَتْبَعَ سَبَبًا</string>
+    <string name="alkahf_aya91_en" translatable="false" >Until, when he came to the rising of the sun, he found it rising on a people for whom We had not made against it any shield.</string>
+    <string name="alkahf_aya91_ar_en" translatable="false" >Kathalika waqad ahatna bima ladayhi khubran</string>
+    <string name="alkahf_aya91_ar" translatable="false" >كَذَٰلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبْرًا</string>
+    <string name="alkahf_aya90_en" translatable="false" >Until, when he came to the rising of the sun, he found it rising on a people for whom We had not made against it any shield.</string>
+    <string name="alkahf_aya90_enar" translatable="false" >Hatta itha balagha matliAAa alshshamsi wajadaha tatluAAu AAala qawmin lam najAAal lahum min dooniha sitran</string>
+    <string name="alkahf_aya90_ar" translatable="false" >حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا</string>
+    <string name="alkahf_aya89_en" translatable="false" >Then he followed a wayalkahf_aya</string>
+    <string name="alkahf_aya89_ar_en" translatable="false" >Thumma atbaAAa sababan</string>
+    <string name="alkahf_aya89_ar" translatable="false" >ثُمَّ أَتْبَعَ سَبَبًا</string>
+    <string name="alkahf_aya88_en" translatable="false" >But as for one who believes and does righteousness, he will have a reward of Paradise, and we will speak to him from our command with ease.</string>
+    <string name="alkahf_aya88_en_ar" translatable="false" >Waamma man amana waAAamila salihan falahu jazaan alhusna wasanaqoolu lahu min amrina yusran</string>
+    <string name="alkahf_aya88_ar" translatable="false" >وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًا</string>
+    <string name="alkahf_aya87_en" translatable="false" >He said, As for one who wrongs, we will punish him. Then he will be returned to his Lord, and He will punish him with a terrible punishment.</string>
+    <string name="alkahf_aya87_ar_en" translatable="false" >Qala amma man thalama fasawfa nuAAaththibuhu thumma yuraddu ila rabbihi fayuAAaththibuhu AAathaban nukran</string>
+    <string name="alkahf_aya87_ar" translatable="false" >قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًا نُّكْرًا</string>
+    <string name="alkahf_aya86_en" translatable="false" >Until, when he reached the setting of the sun, he found it [as if] setting in a spring of dark mud, and he found near it a people. Allah said, O Dhul-Qarnayn, either you punish [them] or else adopt among them [a way of] goodness.</string>
+    <string name="alkahf_aya86_ar_en" translatable="false" >Hatta itha balagha magh6riba alshshamsi wajadaha taghrubu fee AAaynin hamiatin wawajada AAindaha qawman qulna ya tha alqarnayni imma an tuAAaththiba waimma an tattakhitha feehim husnan</string>
+    <string name="alkahf_aya86_ar" translatable="false" >حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْمًا قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا</string>
+    <string name="alkahf_aya85_en" translatable="false" >So he followed a way</string>
+    <string name="alkahf_aya85_ar_en" translatable="false" >FaatbaAAa sababan</string>
+    <string name="alkahf_aya85_ar" translatable="false" >فَأَتْبَعَ سَبَبًا</string>
+    <string name="alkahf_aya84_en" translatable="false" >Indeed We established him upon the earth, and We gave him to everything a way.</string>
+    <string name="alkahf_aya84_ar_en" translatable="false" >Inna makkanna lahu fee alardi waataynahu min kulli shayin sababan</string>
+    <string name="alkahf_aya84_ar" translatable="false" >إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍ سَبَبًا</string>
+    <string name="alkahf_aya83_en" translatable="false" >And they ask you, [O Muhammad], about Dhul-Qarnayn. Say, I will recite to you about him a report.</string>
+    <string name="alkahf_aya83_ar_en" translatable="false" >Wayasaloonaka AAan thee alqarnayni qul saatloo AAalaykum minhu thikran</string>
+    <string name="alkahf_aya83_ar" translatable="false" >وَيَسْـَٔلُونَكَ عَن ذِى ٱلْقَرْنَيْنِ قُلْ سَأَتْلُوا۟ عَلَيْكُم مِّنْهُ ذِكْرًا</string>
+    <string name="alkahf_aya82_en" translatable="false" >And as for the wall, it belonged to two orphan boys in the city, and there was beneath it a treasure for them, and their father had been righteous. So your Lord intended that they reach maturity and extract their treasure, as a mercy from your Lord. And I did it not of my own accord. That is the interpretation of that about which you could not have patience.</string>
+    <string name="alkahf_aya82_ar_en" translatable="false" >Waamma aljidaru fakana lighulamayni yateemayni fee almadeenati wakana tahtahu kanzun lahuma wakana aboohuma salihan faarada rabbuka an yablugha ashuddahuma wayastakhrija kanzahuma rahmatan min rabbika wama faAAaltuhu AAan amree thalika taweelu ma lam tastiAA AAalayhi sabran</string>
+    <string name="alkahf_aya82_ar" translatable="false" >وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةً مِّن رَّبِّكَ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًا</string>
+    <string name="alkahf_aya81_en" translatable="false" >So we intended that their Lord should substitute for them one better than him in purity and nearer to mercy.</string>
+    <string name="alkahf_aya81_ar_en" translatable="false" >Faaradna an yubdilahuma rabbuhuma khayran minhu zakatan waaqraba ruhman</string>
+    <string name="alkahf_aya81_ar" translatable="false" >فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًا مِّنْهُ زَكَوٰةً وَأَقْرَبَ رُحْمًا</string>
+    <string name="alkahf_aya80_en" translatable="false" >And as for the boy, his parents were believers, and we feared that he would overburden them by transgression and disbelief.</string>
+    <string name="alkahf_aya80_ar_en" translatable="false" >Waamma alghulamu fakana abawahu muminayni fakhasheena an yurhiqahuma tughyanan wakufran</string>
+    <string name="alkahf_aya80_ar" translatable="false" >وَأَمَّا ٱلْغُلَٰمُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَآ أَن يُرْهِقَهُمَا طُغْيَٰنًا وَكُفْرًا</string>
+    <string name="alkahf_aya79_en" translatable="false" >As for the ship, it belonged to poor people working at sea. So I intended to cause defect in it as there was after them a king who seized every [good] ship by force.</string>
+    <string name="alkahf_aya79_ar_en" translatable="false" >Amma alssafeenatu fakanat limasakeena yaAAmaloona fee albahri faaradtu an aAAeebaha wakana waraahum malikun yakhuthu kulla safeenatin ghasban</string>
+    <string name="alkahf_aya79_ar" translatable="false" >أَمَّا ٱلسَّفِينَةُ فَكَانَتْ لِمَسَٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَآءَهُم مَّلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا</string>
+    <string name="alkahf_aya78_en" translatable="false" >[Al-Khidh r] said, This is parting between me and you. I will inform you of the interpretation of that about which you could not have patience.</string>
+    <string name="alkahf_aya78_ar_en" translatable="false" >Qala hatha firaqu baynee wabaynika saonabbioka bitaweeli ma lam tastatiAA AAalayhi sabran</string>
+    <string name="alkahf_aya78_ar" translatable="false" >قَالَ هَٰذَا فِرَاقُ بَيْنِى وَبَيْنِكَ سَأُنَبِّئُكَ بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا</string>
+    <string name="alkahf_aya77_en" translatable="false" >So they set out, until when they came to the people of a town, they asked its people for food, but they refused to offer them hospitality. And they found therein a wall about to collapse, so al-Khidh r restored it. [Moses] said, If you wished, you could have taken for it a payment.</string>
+    <string name="alkahf_aya77_ar_en" translatable="false" >Faintalaqa hatta itha ataya ahla qaryatin istatAAama ahlaha faabaw an yudayyifoohuma fawajada feeha jidaran yureedu an yanqadda faaqamahu qala law shita laittakhathta AAalayhi ajran</string>
+    <string name="alkahf_aya77_ar" translatable="false" >فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًا</string>
+    <string name="alkahf_aya76_en" translatable="false" >[Moses] said, If I should ask you about anything after this, then do not keep me as a companion. You have obtained from me an excuse.</string>
+    <string name="alkahf_aya76_ar_en" translatable="false" >Qala in saaltuka AAan shayin baAAdaha fala tusahibnee qad balaghta min ladunnee AAuthran</string>
+    <string name="alkahf_aya76_ar" translatable="false" >قَالَ إِن سَأَلْتُكَ عَن شَىْءٍۭ بَعْدَهَا فَلَا تُصَٰحِبْنِى قَدْ بَلَغْتَ مِن لَّدُنِّى عُذْرًا</string>
+    <string name="alkahf_aya75_en" translatable="false" >[Al-Khidh r] said, Did I not tell you that with me you would never be able to have patience?</string>
+    <string name="alkahf_aya75_ar_en" translatable="false" >Qala alam aqul laka innaka lan tastateeAAa maAAiya sabran</string>
+    <string name="alkahf_aya75_ar" translatable="false" >قَالَ أَلَمْ أَقُل لَّكَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًا</string>
+    <string name="alkahf_aya74_en" translatable="false" >So they set out, until when they met a boy, al-Khidh r killed him. [Moses] said, Have you killed a pure soul for other than [having killed] a soul? You have certainly done a deplorable thing.</string>
+    <string name="alkahf_aya74_ar_en" translatable="false" >Faintalaqa hatta itha laqiya ghulaman faqatalahu qala aqatalta nafsan zakiyyatan bighayri nafsin laqad jita shayan nukran</string>
+    <string name="alkahf_aya74_ar" translatable="false" >فَٱنطَلَقَا حَتَّىٰٓ إِذَا لَقِيَا غُلَٰمًا فَقَتَلَهُۥ قَالَ أَقَتَلْتَ نَفْسًا زَكِيَّةًۢ بِغَيْرِ نَفْسٍ لَّقَدْ جِئْتَ شَيْـًٔا نُّكْرًا</string>
+    <string name="alkahf_aya73_en" translatable="false" >[Moses] said, Do not blame me for what I forgot and do not cover me in my matter with difficulty.</string>
+    <string name="alkahf_aya73_ar_en" translatable="false" >Qala la tuakhithnee bima naseetu wala turhiqnee min amree AAusran</string>
+    <string name="alkahf_aya73_ar" translatable="false" >قَالَ لَا تُؤَاخِذْنِى بِمَا نَسِيتُ وَلَا تُرْهِقْنِى مِنْ أَمْرِى عُسْرًا</string>
+    <string name="alkahf_aya72_en" translatable="false" >[Al-Khidh r] said, Did I not say that with me you would never be able to have patience?</string>
+    <string name="alkahf_aya72_ar_en" translatable="false" >Qala alam aqul innaka lan tastateeAAa maAAiya sabran</string>
+    <string name="alkahf_aya72_ar" translatable="false" >قَالَ أَلَمْ أَقُلْ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًا</string>
+    <string name="alkahf_aya71_en" translatable="false" >So they set out, until when they had embarked on the ship, al-Khidh r tore it open. [Moses] said, Have you torn it open to drown its people? You have certainly done a grave thing.</string>
+    <string name="alkahf_aya71_ar_en" translatable="false" >Faintalaqa hatta itha rakiba fee alssafeenati kharaqaha qala akharaqtaha litughriqa ahlaha laqad jita shayan imran</string>
+    <string name="alkahf_aya71_ar" translatable="false" >فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا</string>
+    <string name="alkahf_aya70_en" translatable="false" >He said, Then if you follow me, do not ask me about anything until I make to you about it mention.</string>
+    <string name="alkahf_aya70_ar_en" translatable="false" >Qala faini ittabaAAtanee fala tasalnee AAan shayin hatta ohditha laka minhu thikran</string>
+    <string name="alkahf_aya70_ar" translatable="false" >قَالَ فَإِنِ ٱتَّبَعْتَنِى فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًا</string>
+    <string name="alkahf_aya69_en" translatable="false" >[Moses] said, You will find me, if Allah wills, patient, and I will not disobey you in [any] order.</string>
+    <string name="alkahf_aya69_ar_en" translatable="false" >Qala satajidunee in shaa Allahu sabiran wala aAAsee laka amran</string>
+    <string name="alkahf_aya69_ar" translatable="false" >قَالَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ صَابِرًا وَلَآ أَعْصِى لَكَ أَمْرًا</string>
+    <string name="alkahf_aya68_en" translatable="false" >And how can you have patience for what you do not encompass in knowledge?</string>
+    <string name="alkahf_aya68_ar_en" translatable="false" >Wakayfa tasbiru AAala ma lam tuhit bihi khubran</string>
+    <string name="alkahf_aya67_en" translatable="false" >He said, Indeed, with me you will never be able to have patience.</string>
+    <string name="alkahf_aya67_ar_en" translatable="false" >Qala innaka lan tastateeAAa maAAiya sabran</string>
+    <string name="alkahf_aya67_ar" translatable="false" >قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًا</string>
+    <string name="alkahf_aya66_en" translatable="false" >Moses said to him, May I follow you on [the condition] that you teach me from what you have been taught of sound judgement?</string>
+    <string name="alkahf_aya66_ar_en" translatable="false" >Qala lahu moosa hal attabiAAuka AAala an tuAAallimani mimma AAullimta rushdan</string>
+    <string name="alkahf_aya66_ar" translatable="false" >قَالَ لَهُۥ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰٓ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا</string>
+    <string name="alkahf_aya65_en" translatable="false" >And they found a servant from among Our servants to whom we had given mercy from us and had taught him from Us a [certain] knowledge.</string>
+    <string name="alkahf_aya65_ar_en" translatable="false" >Fawajada AAabdan min AAibadina ataynahu rahmatan min AAindina waAAallamnahu min ladunna AAilman</string>
+    <string name="alkahf_aya65_ar" translatable="false" >فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ ءَاتَيْنَٰهُ رَحْمَةً مِّنْ عِندِنَا وَعَلَّمْنَٰهُ مِن لَّدُنَّا عِلْمًا</string>
+    <string name="alkahf_aya64_en" translatable="false" >[Moses] said, That is what we were seeking. So they returned, following their footprints.</string>
+    <string name="alkahf_aya68_ar" translatable="false" >وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًا</string>
+    <string name="alkahf_aya64_ar_en" translatable="false" >Qala thalika ma kunna nabghi fairtadda AAala atharihima qasasan</string>
+    <string name="alkahf_aya64_ar" translatable="false" >قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ فَٱرْتَدَّا عَلَىٰٓ ءَاثَارِهِمَا قَصَصًا</string>
+    <string name="alkahf_aya63_en" translatable="false" >He said, Did you see when we retired to the rock? Indeed, I forgot [there] the fish. And none made me forget it except Satan - that I should mention it. And it took its course into the sea amazingly</string>
+    <string name="alkahf_aya63_ar_en" translatable="false" >Qala araayta ith awayna ila alssakhrati fainnee naseetu alhoota wama ansaneehu illa alshshaytanu an athkurahu waittakhatha sabeelahu fee albahri AAajaban</string>
+    <string name="alkahf_aya63_ar" translatable="false" >قَالَ أَرَءَيْتَ إِذْ أَوَيْنَآ إِلَى ٱلصَّخْرَةِ فَإِنِّى نَسِيتُ ٱلْحُوتَ وَمَآ أَنسَىٰنِيهُ إِلَّا ٱلشَّيْطَٰنُ أَنْ أَذْكُرَهُۥ وَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ عَجَبًا</string>
+    <string name="alkahf_aya62_en" translatable="false" >So when they had passed beyond it, [Moses] said to his boy, Bring us our morning meal. We have certainly suffered in this, our journey, [much] fatigue.</string>
+    <string name="alkahf_aya62_ar_en" translatable="false" >Falamma jawaza qala lifatahu atina ghadaana laqad laqeena min safarina hatha nasaban</string>
+    <string name="alkahf_aya62_ar" translatable="false" >فَلَمَّا جَاوَزَا قَالَ لِفَتَىٰهُ ءَاتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًا</string>
+    <string name="alkahf_aya61_en" translatable="false" >But when they reached the junction between them, they forgot their fish, and it took its course into the sea, slipping away.</string>
+    <string name="alkahf_aya61_ar_en" translatable="false" >Falamma balagha majmaAAa baynihima nasiya hootahuma faittakhatha sabeelahu fee albahri saraban</string>
+    <string name="alkahf_aya61_ar" translatable="false" >فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ سَرَبًا</string>
+    <string name="alkahf_aya60_en" translatable="false" >And [mention] when Moses said to his servant, I will not cease [traveling] until I reach the junction of the two seas or continue for a long period.</string>
+    <string name="alkahf_aya60_ar_en" translatable="false" >Waith qala moosa lifatahu la abrahu hatta ablugha majmaAAa albahrayni aw amdiya huquban</string>
+    <string name="alkahf_aya_60_ar" translatable="false" >وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ أَمْضِىَ حُقُبًا</string>
+    <string name="alkahf_aya59_en" translatable="false" >And those cities - We destroyed them when they wronged, and We made for their destruction an appointed time.</string>
+    <string name="alkahf_aya59_ar_en" translatable="false" >Watilka alqura ahlaknahum lamma thalamoo wajaAAalna limahlikihim mawAAidan</string>
+    <string name="alkahf_aya_59_ar" translatable="false" >وَتِلْكَ ٱلْقُرَىٰٓ أَهْلَكْنَٰهُمْ لَمَّا ظَلَمُوا۟ وَجَعَلْنَا لِمَهْلِكِهِم مَّوْعِدًا</string>
+    <string name="alkahf_aya58_en" translatable="false" >And your Lord is the Forgiving, full of mercy. If He were to impose blame upon them for what they earned, He would have hastened for them the punishment. Rather, for them is an appointment from which they will never find an escape.</string>
+    <string name="alkahf_aya58_ar_en" translatable="false" >Warabbuka alghafooru thoo alrrahmati law yuakhithuhum bima kasaboo laAAajjala lahumu alAAathaba bal lahum mawAAidun lan yajidoo min doonihi mawilan</string>
+    <string name="alkahf_aya58_ar" translatable="false" >وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ بَل لَّهُم مَّوْعِدٌ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًا</string>
+    <string name="alkahf_aya57_en" translatable="false" >And who is more unjust than one who is reminded of the verses of his Lord but turns away from them and forgets what his hands have put forth? Indeed, We have placed over their hearts coverings, lest they understand it, and in their ears deafness. And if you invite them to guidance - they will never be guided, then - ever.</string>
+    <string name="alkahf_aya57_ar_en" translatable="false" >Waman athlamu mimman thukkira biayati rabbihi faaAArada AAanha wanasiya ma qaddamat yadahu inna jaAAalna AAala quloobihim akinnatan an yafqahoohu wafee athanihim waqran wain tadAAuhum ila alhuda falan yahtadoo ithan abadan</string>
+    <string name="alkahf_aya_57_ar" translatable="false" >وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا</string>
+    <string name="alkahf_aya56_en" translatable="false" >And We send not the messengers except as bringers of good tidings and warners. And those who disbelieve dispute by [using] falsehood to [attempt to] invalidate thereby the truth and have taken My verses, and that of which they are warned, in ridicule.</string>
+    <string name="alkahf_aya_56_ar_en" translatable="false" >Wama nursilu almursaleena illa mubashshireena wamunthireena wayujadilu allatheena kafaroo bialbatili liyudhidoo bihi alhaqqa waittakhathoo ayatee wama onthiroo huzuwan</string>
+    <string name="alkahf_aya56_ar" translatable="false" >وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ وَيُجَٰدِلُ ٱلَّذِينَ كَفَرُوا۟ بِٱلْبَٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ وَٱتَّخَذُوٓا۟ ءَايَٰتِى وَمَآ أُنذِرُوا۟ هُزُوًا</string>
+    <string name="alkahf_aya55_en" translatable="false" >And nothing has prevented the people from believing when guidance came to them and from asking forgiveness of their Lord except that there [must] befall them the [accustomed] precedent of the former peoples or that the punishment should come [directly] before them.</string>
+    <string name="alkahf_aya55ar_en" translatable="false" >Wama manaAAa alnnasa an yuminoo ith jaahumu alhuda wayastaghfiroo rabbahum illa an tatiyahum sunnatu alawwaleena aw yatiyahumu alAAathabu qubulan</string>
+    <string name="alkahf_aya55_ar" translatable="false" >وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُوا۟ رَبَّهُمْ إِلَّآ أَن تَأْتِيَهُمْ سُنَّةُ ٱلْأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلًا</string>
+
+
+    <string name="notifsabahtitle">What About Some Tasbih Today ? </string>
+    <string name="notifalkahfitle">It Is Friday ! I Guess It Is Time To Read Surat Al Kahf, Right ?</string>
+
+
+</resources>

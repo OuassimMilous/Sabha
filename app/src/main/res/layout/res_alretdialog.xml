@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:background="@color/green_200"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/allerta_stencil"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/you_have_completed"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Restart"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/repeat_again"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/allerta_stencil"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Restartdif"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/repeat_with_other_settings"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/Stop"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/stop"
+        android:backgroundTint="@color/red_900"
+        android:textAllCaps="false"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+</LinearLayout>

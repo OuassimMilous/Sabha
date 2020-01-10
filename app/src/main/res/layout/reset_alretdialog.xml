@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:background="@color/green_200"
+    android:padding="16dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ResetAll"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="@string/reset_every_thing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/red_900"
+            android:fontFamily="@font/allerta_stencil"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Reset"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/red_900"
+        android:layout_weight="1"
+        android:text="@string/reset_this_thikr_only"
+        android:textAllCaps="false"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/cancelha"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>
