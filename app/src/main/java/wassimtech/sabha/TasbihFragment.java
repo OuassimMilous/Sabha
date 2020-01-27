@@ -43,7 +43,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -51,22 +50,22 @@ import java.util.Locale;
 
 public class TasbihFragment extends Fragment {
 
-    Button counterTV,addview,okay,cancel;
-    int progressInt=0,thikrnum=1,ChhalMnThikr=1;
+    Button counterTV, addview, okay, cancel;
+    int progressInt = 0, thikrnum = 1, ChhalMnThikr = 1;
     ImageButton reset;
-    ImageView ivedit,Setting;
+    ImageView ivedit, Setting;
     SharedPreferences[] sp = new SharedPreferences[1];
 
     LinearLayout list;
 
     String Lang;
 
-    boolean started=false,onclickvibration,ontasbihachangevibration,LangaEverAsked;
+    boolean started = false, onclickvibration, ontasbihachangevibration, LangaEverAsked;
     String[] queuedTasbihat = new String[100];
     Integer[] queuedTasbihatMarat = new Integer[100];
 
 
-    TextView thikrTVarEn,thikrTVEn,thikrTV;
+    TextView thikrTVarEn, thikrTVEn, thikrTV;
 
     public TasbihFragment() {
         // Required empty public constructor
@@ -87,10 +86,9 @@ public class TasbihFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-
         sp[0] = this.getActivity().getSharedPreferences("sp", Context.MODE_PRIVATE);
-        onclickvibration=sp[0].getBoolean("onclickvibration",true);
-        ontasbihachangevibration=sp[0].getBoolean("ontasbihachangevibration",true);
+        onclickvibration = sp[0].getBoolean("onclickvibration", true);
+        ontasbihachangevibration = sp[0].getBoolean("ontasbihachangevibration", true);
 
 
         reset = view.findViewById(R.id.reset);
@@ -117,7 +115,7 @@ public class TasbihFragment extends Fragment {
             thikrTVarEn.setVisibility(View.VISIBLE);
         }*/
 
-        LangaEverAsked=sp[0].getBoolean("LangaEverAsked",false);
+        LangaEverAsked = sp[0].getBoolean("LangaEverAsked", false);
 
         if (!LangaEverAsked) {
 
@@ -173,7 +171,7 @@ public class TasbihFragment extends Fragment {
                     Configuration configuration = new Configuration();
                     configuration.locale = locale;
                     getActivity().getBaseContext().getResources().updateConfiguration(configuration, getActivity().getBaseContext().getResources().getDisplayMetrics());
-                    Lang="ar";
+                    Lang = "ar";
                   /*  getActivity().recreate();
                     FragmentManager fm;
                     fm = getActivity().getSupportFragmentManager();
@@ -211,20 +209,18 @@ public class TasbihFragment extends Fragment {
         Setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SettingsDialogClass stg=new SettingsDialogClass(getActivity());
+                SettingsDialogClass stg = new SettingsDialogClass(getActivity());
                 stg.show();
             }
         });
 
         sp[0] = this.getActivity().getSharedPreferences("sp", Context.MODE_PRIVATE);
-        onclickvibration=sp[0].getBoolean("onclickvibration",true);
-        ontasbihachangevibration=sp[0].getBoolean("ontasbihachangevibration",true);
-
-
+        onclickvibration = sp[0].getBoolean("onclickvibration", true);
+        ontasbihachangevibration = sp[0].getBoolean("ontasbihachangevibration", true);
 
 
         ViewTreeObserver vto = counterTV.getViewTreeObserver();
-        vto.addOnGlobalLayoutListener (new ViewTreeObserver.OnGlobalLayoutListener() {
+        vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onGlobalLayout() {
@@ -235,26 +231,26 @@ public class TasbihFragment extends Fragment {
                 int width = displayMetrics.widthPixels;
                 counterTV.getViewTreeObserver().removeOnGlobalLayoutListener(this);
 
-                if (height>width) {
-                    if (counterTV.getWidth()>300) {
+                if (height > width) {
+                    if (counterTV.getWidth() > 300) {
                         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(counterTV.getWidth(), counterTV.getWidth());
                         counterTV.setLayoutParams(params);
-                    }else {
-                        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(width-(width/3),width-(width/3));
+                    } else {
+                        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(width - (width / 3), width - (width / 3));
                         counterTV.setLayoutParams(params);
                     }
 
 
-                }else {
-                    if (counterTV.getHeight()>300) {
+                } else {
+                    if (counterTV.getHeight() > 300) {
                         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(counterTV.getHeight(), counterTV.getHeight());
                         counterTV.setLayoutParams(params);
-                    }else {
-                        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(height-(height/3),height-(height/3));
+                    } else {
+                        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(height - (height / 3), height - (height / 3));
                         counterTV.setLayoutParams(params);
                     }
                 }
-                if (counterTV.getWidth()!=counterTV.getWidth()) {
+                if (counterTV.getWidth() != counterTV.getWidth()) {
                     if (counterTV.getWidth() > counterTV.getHeight()) {
                         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(counterTV.getHeight(), counterTV.getHeight());
                         counterTV.setLayoutParams(params);
@@ -365,7 +361,7 @@ public class TasbihFragment extends Fragment {
         List<String> tasbihat = new ArrayList<String>();
         Lang = Locale.getDefault().getLanguage();
 
-        if (Lang.equals("en")){
+        if (Lang.equals("en")) {
             tasbihat.add(getResources().getString(R.string.tasbih_subhan_allah_ar_en));
             tasbihat.add(getResources().getString(R.string.tasbih_alhamdou_lilah_ar_en));
             tasbihat.add(getResources().getString(R.string.tasbih_allahu_akbar_ar_en));
@@ -376,7 +372,7 @@ public class TasbihFragment extends Fragment {
             tasbihat.add(getResources().getString(R.string.tasbih_la_hawla_ar_en));
             tasbihat.add(getResources().getString(R.string.tasbih_subhan_allah_wa_bihamdih_ar_en));
             tasbihat.add(getResources().getString(R.string.tasbih_la_ilaha_ila_allah3_ar_en));
-        }else if (Lang.equals("ar")) {
+        } else if (Lang.equals("ar")) {
             tasbihat.add(getResources().getString(R.string.tasbih_subhan_allah_arabic));
             tasbihat.add(getResources().getString(R.string.tasbih_alhamdou_lilah_arabic));
             tasbihat.add(getResources().getString(R.string.tasbih_allahu_akbar_arabic));
@@ -407,38 +403,38 @@ public class TasbihFragment extends Fragment {
         dialog.show();
         if (Lang.equals("en")) {
             addview.setText("Add Another Thikr");
-        }else if (Lang.equals("ar")) {
+        } else if (Lang.equals("ar")) {
             addview.setText("أضف ذكرا أخر");
         }
 
         okay.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            ChhalMnThikr=list.getChildCount()-1;
-            for (int i =1;i<=ChhalMnThikr-1;i++){
-                progressInt=0;
-                thikrnum=1;
-                counterTV.setText(String.valueOf(progressInt));
-                reset.setEnabled(true);
-                Spinner spinner = list.getChildAt(i).findViewById(R.id.spinner);
-                EditText marat = list.getChildAt(i).findViewById(R.id.edittext);
-                try {
-                    queuedTasbihat[i] = spinner.getSelectedItem().toString();
-                    queuedTasbihatMarat[i] = Integer.parseInt(marat.getText().toString());
-                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
-
+            @Override
+            public void onClick(View view) {
+                ChhalMnThikr = list.getChildCount() - 1;
+                for (int i = 1; i <= ChhalMnThikr - 1; i++) {
+                    progressInt = 0;
+                    thikrnum = 1;
                     counterTV.setText(String.valueOf(progressInt));
                     reset.setEnabled(true);
-                    started=true;
-                    dialog.dismiss();
-                }catch (Exception e){
-                    Toast.makeText(getContext(), getResources().getString(R.string.you_cannot_leave_anything_empty), Toast.LENGTH_SHORT).show();
+                    Spinner spinner = list.getChildAt(i).findViewById(R.id.spinner);
+                    EditText marat = list.getChildAt(i).findViewById(R.id.edittext);
+                    try {
+                        queuedTasbihat[i] = spinner.getSelectedItem().toString();
+                        queuedTasbihatMarat[i] = Integer.parseInt(marat.getText().toString());
+                        setthkirTv((queuedTasbihat[thikrnum]), Lang);
+
+                        counterTV.setText(String.valueOf(progressInt));
+                        reset.setEnabled(true);
+                        started = true;
+                        dialog.dismiss();
+                    } catch (Exception e) {
+                        Toast.makeText(getContext(), getResources().getString(R.string.you_cannot_leave_anything_empty), Toast.LENGTH_SHORT).show();
+                    }
+
+
                 }
-
-
             }
-        }
-    });
+        });
 
     }
 
@@ -451,9 +447,9 @@ public class TasbihFragment extends Fragment {
         }
         // SharedPreferences.Editor point = sp[0].edit();
 
-        if (ChhalMnThikr>thikrnum) {
+        if (ChhalMnThikr > thikrnum) {
 
-            if (v != null&&onclickvibration) {
+            if (v != null && onclickvibration) {
                 //noinspection deprecation
                 v.vibrate(40);
             }
@@ -465,19 +461,19 @@ public class TasbihFragment extends Fragment {
 
             if (progressInt >= queuedTasbihatMarat[thikrnum]) {
                 thikrnum++;
-                if (ChhalMnThikr>thikrnum) {
+                if (ChhalMnThikr > thikrnum) {
                     setthkirTv((queuedTasbihat[thikrnum]), Lang);
                     //         point.putInt("thikrnum", thikrnum);
                     progressInt = 0;
                     counterTV.setText(String.valueOf(progressInt));
                     reset.setEnabled(true);
-                    if (v != null&&ontasbihachangevibration) {
+                    if (v != null && ontasbihachangevibration) {
                         //noinspection deprecation
                         v.vibrate(500);
                     }
-                }else {
+                } else {
 
-                    if (v != null&&ontasbihachangevibration) {
+                    if (v != null && ontasbihachangevibration) {
                         //noinspection deprecation
                         v.vibrate(500);
                     }
@@ -486,15 +482,15 @@ public class TasbihFragment extends Fragment {
                     handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            CustomDialogClass alr=new CustomDialogClass(getActivity());
+                            CustomDialogClass alr = new CustomDialogClass(getActivity());
                             alr.show();
                         }
-                    },500);
+                    }, 500);
                 }
             }
 
-        }else {
-            CustomDialogClass alr=new CustomDialogClass(getActivity());
+        } else {
+            CustomDialogClass alr = new CustomDialogClass(getActivity());
             alr.show();
         }
 
@@ -548,7 +544,7 @@ public class TasbihFragment extends Fragment {
                 thikrTVEn.setText(getResources().getString(R.string.tasbih_la_ilaha_ila_allah3));
                 thikrTVarEn.setText(getResources().getString(R.string.tasbih_la_ilaha_ila_allah3_ar_en));
             }
-        }else {
+        } else {
             thikrTVarEn.setText(aren);
             if (aren.equals(getResources().getString(R.string.tasbih_subhan_allah_ar_en))) {
                 thikrTVEn.setText(getResources().getString(R.string.tasbih_subhan_allah));
@@ -604,7 +600,7 @@ public class TasbihFragment extends Fragment {
         });
         List<String> tasbihat = new ArrayList<String>();
         Lang = Locale.getDefault().getLanguage();
-        if (Lang.equals("en")){
+        if (Lang.equals("en")) {
             tasbihat.add(getResources().getString(R.string.tasbih_subhan_allah_ar_en));
             tasbihat.add(getResources().getString(R.string.tasbih_alhamdou_lilah_ar_en));
             tasbihat.add(getResources().getString(R.string.tasbih_allahu_akbar_ar_en));
@@ -616,7 +612,7 @@ public class TasbihFragment extends Fragment {
             tasbihat.add(getResources().getString(R.string.tasbih_subhan_allah_wa_bihamdih_ar_en));
             tasbihat.add(getResources().getString(R.string.tasbih_la_ilaha_ila_allah3_ar_en));
 
-        }else if (Lang.equals("ar")) {
+        } else if (Lang.equals("ar")) {
             tasbihat.add(getResources().getString(R.string.tasbih_subhan_allah_arabic));
             tasbihat.add(getResources().getString(R.string.tasbih_alhamdou_lilah_arabic));
             tasbihat.add(getResources().getString(R.string.tasbih_allahu_akbar_arabic));
@@ -636,16 +632,15 @@ public class TasbihFragment extends Fragment {
         spinner.setAdapter(dataAdapter);
 
 
-        if (list.getChildCount()<98) {
+        if (list.getChildCount() < 98) {
             list.addView(layoutInflater.inflate(R.layout.alert_dialog_tasbih_item_addbtn, null), list.getChildCount(), new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-
 
 
             LinearLayout ll = (LinearLayout) list.getChildAt(list.getChildCount() - 1);
             addview = (Button) ll.getChildAt(0);
             if (Lang.equals("en")) {
                 addview.setText("Add Another Thikr");
-            }else if (Lang.equals("ar")) {
+            } else if (Lang.equals("ar")) {
                 addview.setText("أضف ذكرا أخر");
             }
 
@@ -656,20 +651,21 @@ public class TasbihFragment extends Fragment {
                 }
             });
         }
-        ImageView rmv= list.getChildAt(list.getChildCount() - 2).findViewById(R.id.rmv);
+        ImageView rmv = list.getChildAt(list.getChildCount() - 2).findViewById(R.id.rmv);
         rmv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                list.removeViewAt(list.getChildCount()-2);
+                list.removeViewAt(list.getChildCount() - 2);
             }
         });
     }
+
     public class CustomDialogClass extends Dialog implements
             android.view.View.OnClickListener {
 
         public Activity c;
 
-        public Button Restartdif, Restart,Stop;
+        public Button Restartdif, Restart, Stop;
 
         public CustomDialogClass(Activity a) {
             super(a);
@@ -690,7 +686,6 @@ public class TasbihFragment extends Fragment {
             this.setCanceledOnTouchOutside(true);
 
 
-
             Restart.setOnClickListener(this);
             Restartdif.setOnClickListener(this);
             Stop.setOnClickListener(this);
@@ -701,53 +696,56 @@ public class TasbihFragment extends Fragment {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.Restartdif:
-                    for (int i = 0;i<100;i++){
-                        if (queuedTasbihatMarat[i]!=null){
-                            queuedTasbihatMarat[i]=null;
+                    for (int i = 0; i < 100; i++) {
+                        if (queuedTasbihatMarat[i] != null) {
+                            queuedTasbihatMarat[i] = null;
                         }
                     }
 
-                    ChhalMnThikr=1;
-                    progressInt=0;
+                    ChhalMnThikr = 1;
+                    thikrnum = 1;
+                    progressInt = 0;
                     counterTV.setText(getResources().getString(R.string.start));
                     reset.setEnabled(false);
 
-                        iveditOnclick();
+                    iveditOnclick();
 
-                        setthkirTv((queuedTasbihat[thikrnum]), Lang);
+                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
 
-                        dismiss();
+                    dismiss();
 
                     break;
                 case R.id.Restart:
 
-                    progressInt=0;
+                    progressInt = 0;
+                    thikrnum = 1;
                     counterTV.setText(String.valueOf(progressInt));
                     reset.setEnabled(true);
 
-                        setthkirTv((queuedTasbihat[thikrnum]), Lang);
+                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
 
-                        dismiss();
+                    dismiss();
 
                     break;
                 case R.id.Stop:
-                    for (int i = 0;i<100;i++){
-                        if (queuedTasbihatMarat[i]!=null){
-                            queuedTasbihatMarat[i]=null;
+                    for (int i = 0; i < 100; i++) {
+                        if (queuedTasbihatMarat[i] != null) {
+                            queuedTasbihatMarat[i] = null;
                         }
                     }
-                    ChhalMnThikr=1;
-                    progressInt=0;
-                    thikrnum=1;
+                    ChhalMnThikr = 1;
+                    thikrnum = 1;
+                    progressInt = 0;
+                    thikrnum = 1;
 
                     counterTV.setText(getResources().getString(R.string.start));
                     reset = getActivity().findViewById(R.id.reset);
                     reset.setEnabled(false);
-                    started=false;
+                    started = false;
 
-                            setthkirTv((queuedTasbihat[thikrnum]), Lang);
+                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
 
-                            dismiss();
+                    dismiss();
                     break;
                 default:
                     break;
@@ -761,7 +759,7 @@ public class TasbihFragment extends Fragment {
 
         public Activity c;
 
-        public Button ResetAll, Reset,cancelha;
+        public Button ResetAll, Reset, cancelha;
 
         public ResetDialogClass(Activity a) {
             super(a);
@@ -780,7 +778,6 @@ public class TasbihFragment extends Fragment {
             this.setCanceledOnTouchOutside(false);
 
 
-
             Reset.setOnClickListener(this);
             ResetAll.setOnClickListener(this);
             cancelha.setOnClickListener(this);
@@ -791,35 +788,35 @@ public class TasbihFragment extends Fragment {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.ResetAll:
-                    for (int i = 0;i<100;i++){
-                        if (queuedTasbihatMarat[i]!=null){
-                            queuedTasbihatMarat[i]=null;
+                    for (int i = 0; i < 100; i++) {
+                        if (queuedTasbihatMarat[i] != null) {
+                            queuedTasbihatMarat[i] = null;
                         }
                     }
 
-                    ChhalMnThikr=1;
-                    progressInt=0;
-                    thikrnum=1;
+                    ChhalMnThikr = 1;
+                    progressInt = 0;
+                    thikrnum = 1;
                     counterTV.setText(getResources().getString(R.string.start));
                     reset.setEnabled(false);
-                    started=false;
+                    started = false;
 
 
-                        setthkirTv((queuedTasbihat[thikrnum]), Lang);
+                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
 
-                        dismiss();
+                    dismiss();
 
                     break;
                 case R.id.Reset:
 
-                    progressInt=0;
+                    progressInt = 0;
 
                     counterTV.setText(String.valueOf(progressInt));
                     reset.setEnabled(true);
 
-                        dismiss();
+                    dismiss();
 
-                            dismiss();
+                    dismiss();
 
                     break;
                 case R.id.cancelha:
@@ -834,28 +831,28 @@ public class TasbihFragment extends Fragment {
     }
 
 
-
     public class SettingsDialogClass extends Dialog implements
             android.view.View.OnClickListener {
 
         public Activity c;
 
         CheckBox vibration_when_the_thikr_changes, vibration_on_every_tasbiha;
-        RadioButton rbEn,rbAr;
+        RadioButton rbEn, rbAr;
 
         Button okaybt;
+
         public SettingsDialogClass(Activity a) {
             super(a);
             // TODO Auto-generated constructor stub
             this.c = a;
         }
+
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             requestWindowFeature(Window.FEATURE_NO_TITLE);
             setContentView(R.layout.settings_alretdialog);
             this.setCanceledOnTouchOutside(true);
-
 
 
             vibration_when_the_thikr_changes = findViewById(R.id.vibration_when_the_thikr_changes);
@@ -870,7 +867,7 @@ public class TasbihFragment extends Fragment {
                 rbEn.setChecked(true);
                 rbAr.setChecked(false);
 
-            }else if (Locale.getDefault().getLanguage().equals("ar")){
+            } else if (Locale.getDefault().getLanguage().equals("ar")) {
                 rbEn.setChecked(false);
                 rbAr.setChecked(true);
             }
@@ -896,13 +893,13 @@ public class TasbihFragment extends Fragment {
                     onclickvibration = vibration_on_every_tasbiha.isChecked();
 
 
-                    if(rbEn.isChecked()&&Lang!="en"){
+                    if (rbEn.isChecked() && Lang != "en") {
                         Locale locale = new Locale("en");
                         Locale.setDefault(locale);
                         Configuration configuration = new Configuration();
                         configuration.locale = locale;
                         getActivity().getBaseContext().getResources().updateConfiguration(configuration, getActivity().getBaseContext().getResources().getDisplayMetrics());
-                        Lang="en";
+                        Lang = "en";
                      /*   FragmentManager fm;
                         fm = getActivity().getSupportFragmentManager();
                         TasbihFragment tasbihFragment = TasbihFragment.this;
@@ -911,7 +908,8 @@ public class TasbihFragment extends Fragment {
                         }
                         fm.beginTransaction().show(tasbihFragment).commit();
                       //  getActivity().recreate();
-*/                   point.putBoolean("ontasbihachangevibration", ontasbihachangevibration);
+*/
+                        point.putBoolean("ontasbihachangevibration", ontasbihachangevibration);
                         point.putBoolean("onclickvibration", onclickvibration);
                         point.putString("Lang", Lang);
                         point.apply();
@@ -921,13 +919,13 @@ public class TasbihFragment extends Fragment {
                         Intent myIntent = new Intent(getActivity(), MainActivity.class);
                         startActivity(myIntent);
 
-                    }else if (rbAr.isChecked()&&Lang!="ar"){
+                    } else if (rbAr.isChecked() && Lang != "ar") {
                         Locale locale = new Locale("ar");
                         Locale.setDefault(locale);
                         Configuration configuration = new Configuration();
                         configuration.locale = locale;
                         getActivity().getBaseContext().getResources().updateConfiguration(configuration, getActivity().getBaseContext().getResources().getDisplayMetrics());
-                        Lang="ar";
+                        Lang = "ar";
                     /*    FragmentManager fm;
                         fm = getActivity().getSupportFragmentManager();
                         TasbihFragment tasbihFragment = TasbihFragment.this;
@@ -945,23 +943,22 @@ public class TasbihFragment extends Fragment {
                         getActivity().finish();
                         Intent myIntent = new Intent(getActivity(), MainActivity.class);
                         startActivity(myIntent);
-                    }else{
+                    } else {
                         dismiss();
 
                     }
 
 
-
                 }
             });
-            if (!ontasbihachangevibration){
+            if (!ontasbihachangevibration) {
                 vibration_when_the_thikr_changes.setChecked(false);
-            }else {
+            } else {
                 vibration_when_the_thikr_changes.setChecked(true);
             }
-            if (!onclickvibration){
+            if (!onclickvibration) {
                 vibration_on_every_tasbiha.setChecked(false);
-            }else {
+            } else {
                 vibration_on_every_tasbiha.setChecked(true);
             }
 
@@ -971,51 +968,52 @@ public class TasbihFragment extends Fragment {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.Restartdif:
-                    for (int i = 0;i<100;i++){
-                        if (queuedTasbihatMarat[i]!=null){
-                            queuedTasbihatMarat[i]=null;
+                    for (int i = 0; i < 100; i++) {
+                        if (queuedTasbihatMarat[i] != null) {
+                            queuedTasbihatMarat[i] = null;
                         }
                     }
 
-                    ChhalMnThikr=1;
-                    progressInt=0;
-                    thikrnum=1;
+                    ChhalMnThikr = 1;
+                    progressInt = 0;
+                    thikrnum = 1;
 
 
-                        iveditOnclick();
+                    iveditOnclick();
 
-                        setthkirTv((queuedTasbihat[thikrnum]), Lang);
-                      
-                        dismiss();
+                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
+
+                    dismiss();
 
                     break;
                 case R.id.Restart:
-                    progressInt=0;
+                    progressInt = 0;
                     counterTV.setText(String.valueOf(progressInt));
                     reset.setEnabled(true);
-                    thikrnum=1;
+                    thikrnum = 1;
 
-                        setthkirTv((queuedTasbihat[thikrnum]), Lang);
-                      
-                        dismiss();
+                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
+
+                    dismiss();
 
                     break;
                 case R.id.Stop:
-                    for (int i = 0;i<100;i++){
-                        if (queuedTasbihatMarat[i]!=null){
-                            queuedTasbihatMarat[i]=null;
+                    for (int i = 0; i < 100; i++) {
+                        if (queuedTasbihatMarat[i] != null) {
+                            queuedTasbihatMarat[i] = null;
                         }
                     }
-                    ChhalMnThikr=1;
-                    progressInt=0;
-                    thikrnum=1;
+                    ChhalMnThikr = 1;
+                    progressInt = 0;
+                    thikrnum = 1;
 
                     counterTV.setText(getResources().getString(R.string.start));
                     reset = getActivity().findViewById(R.id.reset);
-                    reset.setEnabled(false); started=false;
+                    reset.setEnabled(false);
+                    started = false;
 
-                        setthkirTv((queuedTasbihat[thikrnum]), Lang);
-                        dismiss();
+                    setthkirTv((queuedTasbihat[thikrnum]), Lang);
+                    dismiss();
 
                     break;
                 default:
